@@ -1,0 +1,35 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="text_radius_siz">5dp</dimen>
+    <dimen name="xml_splah_width">140dp</dimen>
+    <dimen name="xml_splah_size">20sp</dimen>
+    <dimen name="head">60dp</dimen>
+    <dimen name="search_view_size">45dp</dimen>
+    <dimen name="act_main_im">150dp</dimen>
+    <dimen name="text_size_head">20sp</dimen>
+    <dimen name="text_body_big_size">18sp</dimen>
+    <dimen name="text_body_size">16sp</dimen>
+    <dimen name="text_process_foot_size">12sp</dimen>
+    <dimen name="text_time_size">13sp</dimen>
+    <dimen name="rl_ll_height_size">50dp</dimen>
+    <dimen name="et_margin_top_Bottom">5dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- 手势密码 -->
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="text_size_big">14sp</dimen>
+    <dimen name="text_size_middle">13sp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_least">11sp</dimen>
+    <dimen name="fab_shadow_offset">3dp</dimen>
+    <dimen name="fab_shadow_radius">9dp</dimen>
+    <dimen name="fab_stroke_width">1dp</dimen>
+    <dimen name="fab_icon_size">24dp</dimen>
+    <dimen name="fab_actions_spacing">16dp</dimen>
+    <dimen name="fab_labels_margin">8dp</dimen>
+    <dimen name="fab_plus_icon_size">14dp</dimen>
+    <dimen name="fab_plus_icon_stroke">2dp</dimen>
+    <dimen name="text_body_height">53dp</dimen>
+    <dimen name="text_size_body">15sp</dimen>
+</resources>

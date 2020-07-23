@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back_color">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/cardview"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/property_detail_lossMan_layout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:text="损失方"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/property_detail_lossMan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/wordColor2"
+                android:textSize="12sp"
+                android:hint="请选择"
+                android:textColorHint="@color/editColor"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/right_arrow"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="8dp"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/back_color" />
+
+        <LinearLayout
+            android:id="@+id/property_detail_riskCode_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="14dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:text="险别代码"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/property_detail_riskCode"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/wordColor2"
+                android:textSize="12sp"
+                android:gravity="right|center_vertical"
+                android:hint="请选择"
+                android:textColorHint="@color/editColor"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/right_arrow"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="8dp"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/back_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:text="财产名称"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/property_detail_propertyname"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="15dp"
+                android:background="@null"
+                android:gravity="right"
+                android:hint="请输入财产名称"
+                android:text=""
+                android:textColor="@color/wordColor2"
+                android:textColorHint="@color/editColor"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/back_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:text="定损金额"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/property_detail_count"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="15dp"
+                android:background="@null"
+                android:gravity="right"
+                android:hint="请输入定损金额"
+                android:maxLines="1"
+                android:maxLength="7"
+                android:text=""
+                android:textColor="@color/wordColor2"
+                android:textColorHint="@color/editColor"
+                android:textSize="12sp"
+                android:inputType="numberDecimal"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/back_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:text="残值"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/property_detail_restvalue"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:background="@null"
+                android:gravity="right"
+                android:hint="请输入残值"
+                android:maxLines="1"
+                android:maxLength="7"
+                android:text=""
+                android:textColor="@color/wordColor2"
+                android:textColorHint="@color/editColor"
+                android:textSize="12sp"
+                android:inputType="numberDecimal"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/back_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:text="定损意见"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/property_detail_opinion"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:background="@null"
+                android:gravity="right"
+                android:hint="请输入定损意见"
+                android:maxLength="100"
+                android:text=""
+                android:textColor="@color/wordColor2"
+                android:textColorHint="@color/editColor"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_bg_rel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="@drawable/main_page_bg"
+    tools:context="com.etop.bankcode.MainActivity" >
+
+    <!--ImageView
+        android:id="@+id/logo_main_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_logo_pic_x" /-->
+
+    <!--ImageButton
+        android:id="@+id/Information_btn_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/info_btn" /-->
+
+    <ImageButton
+        android:id="@+id/tackPic_btn_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/tack_pic_btn" />
+
+    <!--  ImageButton
+        android:id="@+id/buyNow_btn_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/buy_btn" />-->
+
+    <RelativeLayout
+        android:id="@+id/start_page_rel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <!--ImageView
+            android:id="@+id/start_page_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/start_page_bg" /-->
+
+        <!--ImageView
+            android:id="@+id/wintone_word_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/wintone_word_logo" /-->
+
+        <!--ImageView
+            android:id="@+id/wisdom_word_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/wisdom_word_logo" /-->
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,1210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--有待确认  工种  触碰规则  模型因子  物品分类 单位  案件属性-->
+    <!--   修理厂类型 -->
+    <string-array name="XLCLX_Value">
+        <item>请选择</item>
+        <item>特约修理厂</item>
+        <item>一类修理厂</item>
+        <item>二类修理厂</item>
+        <item>三类修理厂</item>
+        <item>其他</item>
+        <item>4S店</item>
+    </string-array>
+    <string-array name="XLCLX_Code">
+        <item></item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <!--   工种/代码 -->
+    <string-array name="XLGZ_Value">
+        <item>请选择</item>
+        <item>喷漆</item>
+        <item>电工</item>
+        <item>机修</item>
+        <item>钣金</item>
+        <item>拆装</item>
+        <item>其他</item>
+        <item>施救费</item>
+        <item>辅料</item>
+    </string-array>
+    <string-array name="XLGZ_Code">
+        <item></item>
+        <item>907001</item>
+        <item>907003</item>
+        <item>907004</item>
+        <item>907005</item>
+        <item>907006</item>
+        <item>907007</item>
+        <item>907008</item>
+        <item>907009</item>
+    </string-array>
+
+
+    <!--有待确认-->
+    <!--   案件属性 -->
+    <string-array name="AJSX_Value">
+        <item>请选择</item>
+        <item>一般案件</item>
+        <item>简易案件</item>
+        <item>重大案件</item>
+        <item>全部</item>
+    </string-array>
+    <string-array name="AJSX_Code">
+        <item></item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <!--   扩展信息-出险地点分类 -->
+    <string-array name="KZXX_Value">
+        <item>请选择</item>
+        <item>普通公路</item>
+        <item>高速公路</item>
+        <item>城市道路</item>
+        <item>乡村便道和机耕路</item>
+        <item>场院及其他</item>
+    </string-array>
+    <string-array name="KZXX_Code">
+        <item></item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <!-- 号牌种类 -->
+    <string-array name="LHPZ_Value">
+        <item>请选择</item>
+        <item>大型汽车号牌</item>
+        <item>小型汽车号牌</item>
+        <item>使馆汽车号牌</item>
+        <item>领馆汽车号牌</item>
+        <item>境外汽车号牌</item>
+        <item>外籍汽车号牌</item>
+        <item>两、三轮摩托车号牌</item>
+        <item>轻便摩托车号牌</item>
+        <item>使馆摩托车号牌</item>
+        <item>领馆摩托车号牌</item>
+        <item>境外摩托车号牌</item>
+        <item>外籍摩托车号牌</item>
+        <item>农用运输车号牌</item>
+        <item>拖拉机号牌</item>
+        <item>挂车号牌</item>
+        <item>教练汽车号牌</item>
+        <item>教练摩托车号牌</item>
+        <item>试验汽车号牌</item>
+        <item>试验摩托车号牌</item>
+        <item>临时入境汽车号牌</item>
+        <item>临时入境摩托车号牌</item>
+        <item>临时行驶车号牌</item>
+        <item>警用汽车号牌</item>
+        <item>警用摩托车号牌</item>
+        <item>武警号码</item>
+        <item>军队号码</item>
+        <item>商业其他号牌</item>
+    </string-array>
+    <string-array name="LHPZ_Code">
+        <item></item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>31</item>
+        <item>32</item>
+        <item>99</item>
+    </string-array>
+
+    <!-- 事故责任 -->
+    <string-array name="SGZR_Value">
+        <item>请选择</item>
+        <item>全责</item>
+        <item>主责</item>
+        <item>同责</item>
+        <item>次责</item>
+        <item>无责</item>
+    </string-array>
+    <string-array name="SGZR_Code">
+        <item></item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+
+
+
+
+    <!-- 2.4.4	大案上报原因-->
+    <string-array name="DASB_Value">
+        <item>请选择</item>
+        <item>单辆车损或单项物损估损超过3万元</item>
+        <item>单个人伤估损超过5万元</item>
+        <item>案件总损失超过5万元</item>
+        <item>有车辆实际全损或推定全损</item>
+        <item>全车盗抢</item>
+    </string-array>
+    <string-array name="DASB_Code">
+        <item></item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+    </string-array>
+
+
+    <!--2.4.6	备注类型（公共备注功能）-->
+    <string-array name="GGBZ_Value">
+        <item>请选择</item>
+        <item>报案</item>
+        <item>调度</item>
+        <item>催查勘定损</item>
+        <item>推修信息</item>
+        <item>咨询</item>
+        <item>投诉</item>
+        <item>回访</item>
+        <item>未决跟踪</item>
+        <item>派工受阻</item>
+        <item>其它</item>
+        <item>销案</item>
+        <item>救援服务</item>
+        <item>双代案件</item>
+        <item>委托公估(本地)</item>
+        <item>委托公估(异地)</item>
+    </string-array>
+    <string-array name="GGBZ_Code">
+        <item></item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </string-array>
+
+    <!--2.4.8	证件类型（查勘记录）-->
+    <string-array name="ZJLX_Value">
+        <item>请选择</item>
+        <item>居民身份证或驾驶证</item>
+        <item>护照</item>
+        <item>军人证</item>
+        <item>组织机构代码</item>
+        <item>港澳通行证或台胞证</item>
+        <item>学生证</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="ZJLX_Code">
+        <item></item>
+        <item>124001</item>
+        <item>124002</item>
+        <item>124003</item>
+        <item>124004</item>
+        <item>124005</item>
+        <item>124006</item>
+        <item>124099</item>
+    </string-array>
+
+    <!--2.4.8	证件类型（人伤）-->
+    <string-array name="ZJRS_Value">
+        <item>请选择</item>
+        <item>居民身份证或驾驶证</item>
+        <item>护照</item>
+        <item>军人证</item>
+        <item>组织机构代码</item>
+        <item>港澳通行证或台胞证</item>
+        <item>学生证</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="ZJRS_Code">
+        <item></item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>09</item>
+    </string-array>
+
+    <!--2.4.10	牌照颜色（案件涉损）-->
+    <string-array name="PZYS_Value">
+        <item>请选择</item>
+        <item>蓝</item>
+        <item>黄</item>
+        <item>黑</item>
+        <item>白</item>
+        <item>白蓝</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="PZYS_Code">
+        <item></item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <!--2.4.11	无法获取车牌号（案件涉损） 标的-->
+    <string-array name="WFHQCPH_Value">
+        <item>请选择</item>
+        <item>新车未上牌</item>
+        <item>证件被扣</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="WFHQCPH_Code">
+        <item>N</item>
+        <item>0</item>
+        <item>2</item>
+        <item>99</item>
+    </string-array>
+    <!--2.4.11	无法获取车牌号（案件涉损） 三者车-->
+    <string-array name="WFHQCPHSZ_Value">
+        <item>请选择</item>
+        <item>销案</item>
+        <item>无需赔付</item>
+        <item>三者逃逸</item>
+        <item>私了</item>
+        <item>新车无车牌</item>
+        <item>商品车无牌</item>
+        <item>摩托无车牌</item>
+        <item>电瓶车无车牌</item>
+        <item>三轮车无车牌</item>
+        <item>农用车无车牌</item>
+        <item>证件被扣</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="WFHQCPHSZ_Code">
+        <item>N</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>11</item>
+        <item>99</item>
+    </string-array>
+
+    <!--2.4.12	无法获取驾驶员姓名 标的-->
+    <string-array name="WFHQJSY_Value">
+        <item>请选择</item>
+        <item>见不到本人</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="WFHQJSY_Code">
+        <item>N</item>
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <!--2.4.12	无法获取驾驶员姓名 三者车-->
+    <string-array name="WFHQJSYSZ_Value">
+        <item>请选择</item>
+        <item>销案</item>
+        <item>无需赔付</item>
+        <item>三者逃逸</item>
+        <item>私了</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="WFHQJSYSZ_Code">
+        <item></item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <!--2.4.13	修改驾驶员姓名原因-->
+    <string-array name="XGJSY_Value">
+        <item>请选择</item>
+        <item>错别字(近音)</item>
+        <item>其它原因</item>
+    </string-array>
+    <string-array name="XGJSY_Code">
+        <item></item>
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <!--2.4.14	驾驶证类型-->
+    <string-array name="JSZLX_Value">
+        <item>请选择</item>
+        <item>大型客车和B</item>
+        <item>大型货车和C,M</item>
+        <item>小型汽车(包括方向盘式三轮机动车)和G</item>
+        <item>方向把式三轮摩托车和E,L</item>
+        <item>二轮摩托车和F</item>
+        <item>轻便摩托车</item>
+        <item>大型拖拉机,四轮农用运输车和H</item>
+        <item>小型拖拉机</item>
+        <item>手扶拖拉机</item>
+        <item>三轮农用运输车</item>
+        <item>轮式自行专用机械</item>
+        <item>其他车</item>
+    </string-array>
+    <string-array name="JSZLX_Code">
+        <item></item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>Z</item>
+    </string-array>
+    <!--2.4.16	无法获取驾驶证（标的）-->
+    <string-array name="BDJSZ_Value">
+        <item>请选择</item>
+        <item>新车未上牌</item>
+        <item>证件被扣</item>
+        <item>其它</item>
+    </string-array>
+    <string-array name="BDJSZ_Code">
+        <item>N</item>
+        <item>0</item>
+        <item>2</item>
+        <item>99</item>
+    </string-array>
+    <!--2.4.16	查勘地点-->
+    <string-array name="CKDD_Value">
+        <item>请选择</item>
+        <item>事故现场</item>
+        <item>修理厂</item>
+        <item>交警事故停车场</item>
+        <item>其它</item>
+    </string-array>
+    <string-array name="CKDD_Code">
+        <item></item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <!--2.4.17	对方交强商业承保公司（案件涉损）-->
+    <string-array name="DFJQXSYCBGS_Value">
+        <item>请选择</item>
+        <item>安信农业保险股份有限公司</item>
+        <item>安邦财产保险股份有限公司</item>
+        <item>安诚财产保险股份有限公司</item>
+        <item>安华农业保险股份有限公司</item>
+        <item>永诚财产保险股份有限公司</item>
+        <item>美亚财产保险有限公司</item>
+        <item>中航安盟保险有限公司</item>
+        <item>安联财产保险(中国)有限公司</item>
+        <item>北部湾财产保险股份有限公司</item>
+        <item>中银保险有限公司</item>
+        <item>渤海财产保险股份有限公司</item>
+        <item>长安责任保险股份有限公司</item>
+        <item>国泰财产保险有限责任公司</item>
+        <item>中国大地财产保险股份有限公司</item>
+        <item>诚泰财产保险股份有限公司</item>
+        <item>中华联合财产保险股份有限公司</item>
+        <item>长江财产保险股份有限公司</item>
+        <item>中国太平洋财产保险股份有限公司</item>
+        <item>富德财产保险股份有限公司</item>
+        <item>都邦财产保险股份有限公司</item>
+        <item>鼎和财产险保险股份有限公司</item>
+        <item>史带保险股份有限公司</item>
+        <item>富邦财产保险有限公司</item>
+        <item>中国人寿财产保险股份有限公司</item>
+        <item>国元农业保险股份有限公司</item>
+        <item>华安财产保险股份有限公司</item>
+        <item>恒邦财产保险股份有限公司</item>
+        <item>华海财产保险股份有限公司</item>
+        <item>华农财产保险股份有限公司</item>
+        <item>华泰财产保险股份有限公司</item>
+        <item>现代财产保险(中国)有限公司</item>
+        <item>锦泰财产保险股份有限公司</item>
+        <item>利宝保险有限公司</item>
+        <item>民安财产保险有限公司</item>
+        <item>三井住友海上火灾保险(中国)有限公司</item>
+        <item>中国平安财产保险股份有限公司</item>
+        <item>中国人民财产保险股份有限公司</item>
+        <item>日本财产保险(中国)有限公司</item>
+        <item>阳光农业相互保险公司</item>
+        <item>三星财产保险(中国)有限公司</item>
+        <item>天安财产保险股份有限公司</item>
+        <item>东京海上日动火灾保险(中国)有限公司</item>
+        <item>安盛天平财产保险股份有限公司</item>
+        <item>太平财产保险有限公司</item>
+        <item>泰山财产保险股份有限公司</item>
+        <item>众诚汽车保险股份有限公司</item>
+        <item>鑫安汽车保险股份有限公司</item>
+        <item>信达财产保险股份有限公司</item>
+        <item>永安财产保险股份有限公司</item>
+        <item>英大泰和财产保险股份有限公司</item>
+        <item>阳光财产保险股份有限公司</item>
+        <item>燕赵财产保险股份有限公司</item>
+        <item>紫金财产保险股份有限公司</item>
+        <item>中路交通财产保险股份有限公司</item>
+        <item>中煤财产保险股份有限公司</item>
+        <item>浙商财产保险股份有限公司</item>
+        <item>中原财产保险股份有限公司</item>
+        <item>中意财产保险公司(商业险)</item>
+    </string-array>
+    <string-array name="DFJQXSYCBGS_Code">
+        <item></item>
+        <item>AAIC</item>
+        <item>ABIC</item>
+        <item>ACIC</item>
+        <item>AHIC</item>
+        <item>AICS</item>
+        <item>AIGC</item>
+        <item>AMIC</item>
+        <item>AZCN</item>
+        <item>BGIC</item>
+        <item>BOCI</item>
+        <item>BPIC</item>
+        <item>CAIC</item>
+        <item>CATH</item>
+        <item>CCIC</item>
+        <item>CHAC</item>
+        <item>CICP</item>
+        <item>CJCX</item>
+        <item>CPIC</item>
+        <item>CRIC</item>
+        <item>DBIC</item>
+        <item>DHIC</item>
+        <item>DICC</item>
+        <item>FPIC</item>
+        <item>GPIC</item>
+        <item>GYIC</item>
+        <item>HAIC</item>
+        <item>HBIC</item>
+        <item>HHBX</item>
+        <item>HNIC</item>
+        <item>HTIC</item>
+        <item>HYIC</item>
+        <item>JTIC</item>
+        <item>LIHI</item>
+        <item>MACN</item>
+        <item>MSIC</item>
+        <item>PAIC</item>
+        <item>PICC</item>
+        <item>SJIC</item>
+        <item>SMIC</item>
+        <item>SPIC</item>
+        <item>TAIC</item>
+        <item>TMNF</item>
+        <item>TPBX</item>
+        <item>TPIC</item>
+        <item>TSBX</item>
+        <item>UTIC</item>
+        <item>XAIC</item>
+        <item>XDCX</item>
+        <item>YAIC</item>
+        <item>YDCX</item>
+        <item>YGBX</item>
+        <item>YZIC</item>
+        <item>ZKIC</item>
+        <item>ZLIC</item>
+        <item>ZMBX</item>
+        <item>ZSIC</item>
+        <item>ZYBX</item>
+        <item>ZYIC</item>
+    </string-array>
+
+    <!--2.4.18	对方交强商业承保地区-->
+    <string-array name="CBDQ_Value">
+        <item>请选择</item>
+        <item>北京</item>
+        <item>天津</item>
+        <item>河北</item>
+        <item>山西</item>
+        <item>内蒙古</item>
+        <item>辽宁</item>
+        <item>大连</item>
+        <item>吉林</item>
+        <item>黑龙江</item>
+        <item>上海</item>
+        <item>江苏</item>
+        <item>浙江</item>
+        <item>宁波</item>
+        <item>安徽</item>
+        <item>福建</item>
+        <item>厦门</item>
+        <item>江西</item>
+        <item>山东</item>
+        <item>青岛</item>
+        <item>河南</item>
+        <item>湖北</item>
+        <item>湖南</item>
+        <item>广东</item>
+        <item>深圳</item>
+        <item>广西</item>
+        <item>海南</item>
+        <item>重庆</item>
+        <item>四川</item>
+        <item>贵州</item>
+        <item>云南</item>
+        <item>西藏</item>
+        <item>陕西</item>
+        <item>甘肃</item>
+        <item>青海</item>
+        <item>宁夏</item>
+        <item>新疆</item>
+    </string-array>
+    <string-array name="CBDQ_Code">
+        <item></item>
+        <item>110000</item>
+        <item>120000</item>
+        <item>130000</item>
+        <item>140000</item>
+        <item>150000</item>
+        <item>210000</item>
+        <item>210200</item>
+        <item>220000</item>
+        <item>230000</item>
+        <item>310000</item>
+        <item>320000</item>
+        <item>330000</item>
+        <item>330200</item>
+        <item>340000</item>
+        <item>350000</item>
+        <item>350200</item>
+        <item>360000</item>
+        <item>370000</item>
+        <item>370200</item>
+        <item>410000</item>
+        <item>420000</item>
+        <item>430000</item>
+        <item>440000</item>
+        <item>440300</item>
+        <item>450000</item>
+        <item>460000</item>
+        <item>500000</item>
+        <item>510000</item>
+        <item>520000</item>
+        <item>530000</item>
+        <item>540000</item>
+        <item>610000</item>
+        <item>620000</item>
+        <item>630000</item>
+        <item>640000</item>
+        <item>650000</item>
+    </string-array>
+    <!--2.4.20	身份（案件涉损-人伤）-->
+    <string-array name="SF_Value">
+        <item>请选择</item>
+        <item>第三者</item>
+        <item>车上人员</item>
+    </string-array>
+    <string-array name="SF_Code">
+        <item></item>
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <!--2.4.22	伤情-->
+    <string-array name="SQ_Value">
+        <item>请选择</item>
+        <item>轻伤</item>
+        <item>重伤</item>
+        <item>残废</item>
+        <item>死亡</item>
+        <item>偏重</item>
+        <item>较重</item>
+    </string-array>
+    <string-array name="SQ_Code">
+        <item></item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <!--2.4.23	物损标的类型（案件涉损-财损）-->
+    <string-array name="WSBDLX_Value">
+        <item>请选择</item>
+        <item>第三者物损</item>
+        <item>车上货物</item>
+    </string-array>
+    <string-array name="WSBDLX_Code">
+        <item></item>
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <!--损失类型-->
+    <string-array name="WSSSLX_Value">
+        <item>请选择</item>
+        <item>第三者物损</item>
+        <item>车上货物</item>
+    </string-array>
+    <string-array name="WSSSLX_Code">
+        <item></item>
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <!--事故处理方式-报案信息-->
+    <string-array name="SGCLFS_Value">
+        <item>请选择</item>
+        <item>保险公司处理</item>
+        <item>自行协商</item>
+        <item>交管正常处理</item>
+        <item>交警简易程序处理</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="SGCLFS_Code">
+        <item></item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>9</item>
+    </string-array>
+    <!--案件类型-报案信息-->
+    <string-array name="AJLX_Value">
+        <item>请选择</item>
+        <item>正常案件</item>
+        <item>互碰自赔</item>
+        <item>无责代赔</item>
+        <item>代位求偿</item>
+        <item>各修各车</item>
+    </string-array>
+    <string-array name="AJLX_Code">
+        <item></item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <!--案件等级-报案信息-->
+    <string-array name="AJDJ_Value">
+        <item>请选择</item>
+        <item>简易案件</item>
+        <item>普通案件</item>
+        <item>重大案件</item>
+    </string-array>
+    <string-array name="AJDJ_Code">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <!--是否巨灾、是否异地出险-报案信息-->
+    <string-array name="SFJZ_Value">
+        <item>请选择</item>
+        <item>是</item>
+        <item>否</item>
+    </string-array>
+    <string-array name="SFJZ_Code">
+        <item></item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <!--2.4.24	出险原因（查勘记录）-->
+    <string-array name="CXYY_Value">
+        <item>请选择</item>
+        <item>交通事故类</item>
+        <item>正面相撞</item>
+        <item>侧面相撞</item>
+        <item>尾随相撞</item>
+        <item>对面刮擦</item>
+        <item>同向刮擦</item>
+        <item>碾压</item>
+        <item>翻车</item>
+        <item>坠车</item>
+        <item>失火</item>
+        <item>撞固定物</item>
+        <item>撞路人</item>
+        <item>撞静止车辆</item>
+        <item>其它交通事故</item>
+        <item>单方事故类（非交通事故且非不可抗力事故）</item>
+        <item>火灾（非自燃）</item>
+        <item>爆炸</item>
+        <item>自燃</item>
+        <item>盗抢</item>
+        <item>载运保险车辆的渡船遭受自然灾害</item>
+        <item>玻璃单独破碎</item>
+        <item>车身划痕</item>
+        <item>轮胎单独损坏</item>
+        <item>车内物品或行李被盗抢</item>
+        <item>涉水损失、发动机进水损失</item>
+        <item>车载固定仪器、设备损坏</item>
+        <item>车载货物碰撞责任</item>
+        <item>车载货物掉落责任</item>
+        <item>外部物体倒塌</item>
+        <item>外部物体坠落</item>
+        <item>救助服务</item>
+        <item>代理驾驶</item>
+        <item>送油、送水服务</item>
+        <item>更换轮胎</item>
+        <item>电瓶充电</item>
+        <item>拖拽服务</item>
+        <item>事故费用</item>
+        <item>其它非交通事故类保险事故</item>
+        <item>自然灾害类</item>
+        <item>雷击</item>
+        <item>暴风</item>
+        <item>龙卷风</item>
+        <item>暴雨</item>
+        <item>洪水</item>
+        <item>海啸</item>
+        <item>地陷</item>
+        <item>冰陷</item>
+        <item>崖崩</item>
+        <item>雪灾</item>
+        <item>雹灾</item>
+        <item>泥石流</item>
+        <item>滑坡</item>
+        <item>台风、暴雨</item>
+        <item>其它自然灾害</item>
+        <item>社会灾害类</item>
+        <item>动乱、群体性暴力事件</item>
+        <item>战争</item>
+        <item>恐怖活动</item>
+        <item>其它社会灾害类原因</item>
+        <item>其它保险事故</item>
+        <item>油污污损</item>
+        <item>精神损害</item>
+    </string-array>
+    <string-array name="CXYY_Code">
+        <item></item>
+        <item>100</item>
+        <item>111</item>
+        <item>112</item>
+        <item>113</item>
+        <item>121</item>
+        <item>122</item>
+        <item>130</item>
+        <item>140</item>
+        <item>150</item>
+        <item>160</item>
+        <item>170</item>
+        <item>180</item>
+        <item>190</item>
+        <item>199</item>
+        <item>200</item>
+        <item>201</item>
+        <item>202</item>
+        <item>203</item>
+        <item>204</item>
+        <item>205</item>
+        <item>221</item>
+        <item>222</item>
+        <item>223</item>
+        <item>224</item>
+        <item>225</item>
+        <item>226</item>
+        <item>231</item>
+        <item>232</item>
+        <item>241</item>
+        <item>242</item>
+        <item>260</item>
+        <item>261</item>
+        <item>262</item>
+        <item>263</item>
+        <item>264</item>
+        <item>265</item>
+        <item>270</item>
+        <item>299</item>
+        <item>500</item>
+        <item>501</item>
+        <item>502</item>
+        <item>503</item>
+        <item>504</item>
+        <item>505</item>
+        <item>506</item>
+        <item>507</item>
+        <item>508</item>
+        <item>509</item>
+        <item>510</item>
+        <item>511</item>
+        <item>512</item>
+        <item>513</item>
+        <item>514</item>
+        <item>599</item>
+        <item>600</item>
+        <item>601</item>
+        <item>602</item>
+        <item>603</item>
+        <item>699</item>
+        <item>900</item>
+        <item>901</item>
+        <item>902</item>
+    </string-array>
+
+    <!--2.4.25	出险类型（查勘记录）-->
+    <string-array name="CXLX_Value">
+        <item>请选择</item>
+        <item>单方事故</item>
+        <item>单车事故（三者有损）</item>
+        <item>多车事故</item>
+    </string-array>
+    <string-array name="CXLX_Code">
+        <item></item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <!--单证（大类）[黄河版]-->
+    <string-array name="documents_Dls_Value">
+        <!--<item>基础类</item>-->
+        <item>现场类</item>
+        <item>损失类</item>
+    </string-array>
+    <string-array name="documents_Dls_Code">
+        <!--<item>1</item>-->
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <!--单证（现场类）[黄河版]-->
+    <string-array name="documents_cls1_Value">
+        <item>索赔申请书</item>
+        <item>现场照片</item>
+        <!--<item>事故认定书及相关证明</item>-->
+        <!--<item>查勘报告</item>-->
+        <!--<item>标的车行驶证原件</item>-->
+        <!--<item>标的车行驶证</item>-->
+        <!--<item>标的车VIN码</item>-->
+        <!--<item>人车合影</item>-->
+    </string-array>
+    <string-array name="documents_cls1_Code">
+        <item>4001</item>
+        <item>5001</item>
+        <!--<item>1201</item>-->
+        <!--<item>1209</item>-->
+        <!--<item>5012</item>-->
+        <!--<item>001</item>-->
+        <!--<item>002</item>-->
+        <!--<item>003</item>-->
+    </string-array>
+
+
+    <!--单证（损失类）[黄河版]-->
+    <string-array name="documents_cls2_Value">
+        <item>索赔人身份证明</item>
+        <item>银行卡照片</item>
+        <item>事故认定书及相关证明</item>
+        <item>标的损失照片</item>
+        <item>三者损失照片</item>
+        <item>物损照片</item>
+        <item>驾驶证原件</item>
+        <item>行驶证原件</item>
+        <!--<item>损失确认书</item>-->
+        <!--<item>损失情况确认书</item>-->
+        <!--<item>车辆损失照片</item>-->
+        <!--<item>标的车驾驶证原件</item>-->
+    </string-array>
+    <string-array name="documents_cls2_Code">
+        <item>4003</item>
+        <item>4005</item>
+        <item>1201</item>
+        <item>5010</item>
+        <item>6005</item>
+        <item>99001</item>
+        <item>5011</item>
+        <item>5012</item>
+        <!--<item>99002</item>-->
+        <!--<item>6006</item>-->
+        <!--<item>5010</item>-->
+        <!--<item>5011</item>-->
+    </string-array>
+
+
+
+
+
+
+<!--2.6.17	单证（大类）-->
+    <string-array name="documentsA_Value">
+        <item>现场照片</item>
+        <item>查勘基本信息(证件类)</item>
+        <item>支付信息</item>
+        <item>小额人伤资料</item>
+        <item>索赔申请书</item>
+    </string-array>
+    <string-array name="documentsA_Code">
+        <item>61000</item>
+        <item>51000</item>
+        <item>41000</item>
+        <item>101000</item>
+        <item>11000</item>
+    </string-array>
+
+
+    <!--2.6.17	小类（公共单证类）1-->
+    <string-array name="documentsB_Value1">
+        <item>索赔申请书</item>
+    </string-array>
+    <string-array name="documentsB_Code1">
+        <item>11001</item>
+    </string-array>
+
+
+
+    <!--2.6.17	小类（公共单证类）3-->
+    <string-array name="documentsB_Value3">
+        <item>事故认定书、调解书及相关证明</item>
+        <item>标的车驾驶员驾驶证（含资格证）</item>
+        <item>标的车行驶证</item>
+        <item>标的车VIN码</item>
+        <item>三者车驾驶人驾驶证</item>
+        <item>三者车行驶证</item>
+        <item>三者车保险单/标志</item>
+
+    </string-array>
+    <string-array name="documentsB_Code3">
+        <item>51001</item>
+        <item>51002</item>
+        <item>51003</item>
+        <item>51004</item>
+        <item>51005</item>
+        <item>51006</item>
+        <item>51007</item>
+    </string-array>
+
+
+    <!--2.6.17	小类（公共单证类）3-->
+    <string-array name="documentsB_Value4">
+        <item>伤者身份证</item>
+        <item>伤者伤情照片</item>
+        <item>人伤小额快赔协议</item>
+    </string-array>
+    <string-array name="documentsB_Code4">
+        <item>101001</item>
+        <item>101002</item>
+        <item>101003</item>
+    </string-array>
+
+
+    <!--2.6.17	小类（公共单证类）4-->
+    <string-array name="documentsB_Value5">
+        <item>银行卡</item>
+        <item>转款授权书</item>
+        <item>受益人身份证</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="documentsB_Code5">
+        <item>41001</item>
+        <item>41002</item>
+        <item>41003</item>
+        <item>41004</item>
+    </string-array>
+
+
+
+
+
+    <!--2.6.17	小类（公共单证类）5-->
+    <string-array name="documentsB_Value6">
+        <item>人车合影（查勘员）</item>
+        <item>远景</item>
+        <item>近景</item>
+        <item>标的车前后45°角照</item>
+        <item>标的车外观损失照</item>
+        <item>三者车前后45°角照</item>
+        <item>三者车外观损失照</item>
+        <item>物损照/财产损失照（有物损时）</item>
+        <item>标的车货箱内部照（标的车为货车时）</item>
+
+    </string-array>
+    <string-array name="documentsB_Code6">
+        <item>61001 </item>
+        <item>61002 </item>
+        <item>61003 </item>
+        <item>61004 </item>
+        <item>61005 </item>
+        <item>61006 </item>
+        <item>61007 </item>
+        <item>61008 </item>
+        <item>61009 </item>
+
+    </string-array>
+
+
+
+
+    <!--2.6.17	小类（公共单证类）0-->
+    <string-array name="pubClass_Value">
+        <item>重大赔案审批表</item>
+        <item>重大赔案预报表</item>
+        <item>机动车通融、疑难案件报告单</item>
+        <item>机动车通融、疑难案件报告材料</item>
+        <item>分公司法律意见及请示材料</item>
+        <item>赔案综合报告书</item>
+        <item>机动车辆保险索赔申请书</item>
+        <item>机动车辆保险材料交接单</item>
+        <item>简易事故处理书</item>
+        <item>自行协商处理单</item>
+        <item>交通事故责任认定书</item>
+        <item>交通事故赔偿调解书</item>
+        <item>有关职能部门证明文件</item>
+        <item>法院裁决书、判决书、调解书</item>
+        <item>赔偿凭证</item>
+        <item>权益转让书</item>
+        <item>现场查勘报告</item>
+        <item>标的行驶证、驾驶证、身份证复印件等证件</item>
+        <item>其他</item>
+        <item>代位求偿案件索赔申请书</item>
+        <item>其他认定事故责任的证明</item>
+    </string-array>
+    <string-array name="pubClass_Code">
+        <item>0001</item>
+        <item>0002</item>
+        <item>0003</item>
+        <item>0004</item>
+        <item>0005</item>
+        <item>0006</item>
+        <item>0007</item>
+        <item>0008</item>
+        <item>0009</item>
+        <item>0010</item>
+        <item>0011</item>
+        <item>0012</item>
+        <item>0013</item>
+        <item>0014</item>
+        <item>0015</item>
+        <item>0016</item>
+        <item>0017</item>
+        <item>0018</item>
+        <item>0019</item>
+        <item>0020</item>
+        <item>0023</item>
+    </string-array>
+
+    <!--2.6.17	小类（车损类单证）1-->
+    <string-array name="carDamage_Value">
+        <item>现场查勘报告</item>
+        <item>发票类</item>
+        <item>清单类</item>
+        <item>损失照片</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="carDamage_Code">
+        <item>0101</item>
+        <item>0102</item>
+        <item>0103</item>
+        <item>0104</item>
+        <item>0105</item>
+    </string-array>
+
+    <!--2.6.17	小类（人伤类单证）2-->
+    <string-array name="personDamage_Value">
+        <item>查勘定损单证</item>
+        <item>发票类</item>
+        <item>清单类</item>
+        <item>损失照片</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="personDamage_Code">
+        <item>0201</item>
+        <item>0202</item>
+        <item>0203</item>
+        <item>0204</item>
+        <item>0205</item>
+    </string-array>
+
+    <!--2.6.17	小类（物损类单证）3-->
+    <string-array name="woodDamage_Value">
+        <item>人伤费用核损清单</item>
+        <item>人伤查勘报告</item>
+        <item>身份户籍证明</item>
+        <item>病历及相关材料</item>
+        <item>医疗发票类</item>
+        <item>医疗清单类</item>
+        <item>误工、护理类</item>
+        <item>伤残死亡类</item>
+        <item>交通类</item>
+        <item>人伤照片</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="woodDamage_Code">
+        <item>0301</item>
+        <item>0302</item>
+        <item>0303</item>
+        <item>0304</item>
+        <item>0305</item>
+        <item>0306</item>
+        <item>0307</item>
+        <item>0308</item>
+        <item>0309</item>
+        <item>0310</item>
+        <item>0311</item>
+    </string-array>
+
+    <!--2.6.17	小类（全车盗抢类单证）4-->
+    <string-array name="allCar_Value">
+        <item>盗抢立案证明</item>
+        <item>未破获证明</item>
+        <item>机动车登记证书</item>
+        <item>机动车来历凭证</item>
+        <item>车辆购置税完税证明或免税证明</item>
+        <item>机动车停驶手续</item>
+        <item>钥匙证明</item>
+        <item>登报证明</item>
+    </string-array>
+    <string-array name="allCar_Code">
+        <item>0401</item>
+        <item>0402</item>
+        <item>0403</item>
+        <item>0404</item>
+        <item>0405</item>
+        <item>0406</item>
+        <item>0407</item>
+        <item>0408</item>
+    </string-array>
+
+    <!--2.6.17	小类（火烧车类单证）5-->
+    <string-array name="burn_Value">
+        <item>火烧类单证</item>
+    </string-array>
+    <string-array name="burn_Code">
+        <item>0501</item>
+    </string-array>
+
+</resources>

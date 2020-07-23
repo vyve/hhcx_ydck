@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back_color">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/cardview"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/man_damege_detail_losstype_layout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:text="损失类型"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/man_damege_detail_losstype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/wordColor2"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/right_arrow"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="8dp"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/back_color" />
+
+        <LinearLayout
+            android:id="@+id/man_damege_detail_damegetype_layout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:text="伤情类型"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/man_damege_detail_damegetype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/wordColor2"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/right_arrow"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="8dp"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/back_color" />
+
+        <LinearLayout
+            android:id="@+id/man_damege_detail_damegeplace_layout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:text="受伤部位"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/man_damege_detail_damegeplace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/wordColor2"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/right_arrow"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="8dp"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/back_color" />
+
+        <LinearLayout
+            android:id="@+id/man_damege_detail_lossman_layout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:text="损失方"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/man_damege_detail_lossman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/wordColor2"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/right_arrow"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="8dp"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/back_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:text="姓名"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/man_damege_detail_name"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text=""
+                android:textColor="@color/wordColor2"
+                android:textSize="12sp"
+                android:hint="请输入驾驶人姓名"
+                android:textColorHint="@color/editColor"
+                android:maxLength="10"
+                android:gravity="right"
+                android:background="@null"/>
+
+            <TextView
+                android:id="@+id/man_damege_detail_name_ocr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:background="@mipmap/take_pic" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/back_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:text="身份证号"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/man_damege_detail_creditno"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text=""
+                android:textColor="@color/wordColor2"
+                android:textSize="12sp"
+                android:hint="请输入驾驶人身份证号"
+                android:textColorHint="@color/editColor"
+                android:gravity="right"
+                android:background="@null"
+                android:maxLength="18"/>
+
+            <TextView
+                android:id="@+id/man_damege_detail_creditno_ocr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:background="@mipmap/take_pic" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/back_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:text="伤者电话"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/man_damege_detail_telno"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:background="@null"
+                android:gravity="right"
+                android:hint="请输入伤者电话号"
+                android:inputType="number"
+                android:maxLength="11"
+                android:maxLines="1"
+                android:text=""
+                android:textColor="@color/wordColor2"
+                android:textColorHint="@color/editColor"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/back_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:text="预估金额"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/man_damege_detail_amount"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layout_marginRight="15dp"
+                android:text=""
+                android:textColor="@color/wordColor2"
+                android:textSize="12sp"
+                android:background="@null"
+                android:maxLength="15"
+                android:maxLines="1"
+                android:hint="请输入预估金额"
+                android:textColorHint="@color/editColor"
+                android:inputType="numberDecimal"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

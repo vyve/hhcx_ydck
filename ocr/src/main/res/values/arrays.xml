@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--身份证-->
+    <string-array name="arr_sid_key">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="arr_sid_value">
+        <!--<item>姓名:</item>
+        <item>性别:</item>
+        <item>民族:</item>
+        <item>出生:</item>
+        <item>地址:</item>
+        <item>身份证号码:</item>
+        <item>签发机关:</item>
+        <item>有效期限:</item>-->
+
+        <item>nsName</item>
+        <item>nsSex</item>
+        <item>nsNation</item>
+        <item>nsBirth</item>
+        <item>nsAddress</item>
+        <item>nsIDNum</item>
+        <item>签发机关:</item>
+        <item>有效期限:</item>
+    </string-array>
+    <!--行驶证-->
+    <string-array name="arr_vl_key">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+
+
+    </string-array>
+    <string-array name="arr_vl_value">
+        <!--<item>号牌号码:</item>
+        <item>车辆类型:</item>
+        <item>所有人:</item>
+        <item>住址:</item>
+        <item>使用性质:</item>
+        <item>品牌型号:</item>
+        <item>车辆识别代号:</item>
+        <item>发动机号:</item>
+        <item>注册日期:</item>
+        <item>发证日期:</item>-->
+        <item>nsPlateNo</item>
+        <item>nsVehicleType</item>
+        <item>nsOwner</item>
+        <item>nsAddress</item>
+        <item>nsUseCharacter</item>
+        <item>nsModel</item>
+        <item>nsVIN</item>
+        <item>nsEngineNo</item>
+        <item>nsRegisterDate</item>
+        <item>nsIssueDate</item>
+    </string-array>
+    <!--驾驶证-->
+    <string-array name="arr_dl_key">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+
+    </string-array>
+    <string-array name="arr_dl_value">
+        <item>证号:</item>
+        <item>姓名:</item>
+        <item>性别:</item>
+        <item>住址:</item>
+        <item>领证日期:</item>
+        <item>准驾车型:</item>
+        <item>有效日期:</item>
+        <item>有效期至:</item>
+        <item>国籍:</item>
+        <item>出生日期:</item>
+    </string-array>
+</resources>

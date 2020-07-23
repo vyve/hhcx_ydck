@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#F2F2F2"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/head_head_ll"
+            android:layout_width="fill_parent"
+            android:layout_height="55dip"
+            android:background="#F7F7F7"
+            android:orientation="vertical"
+            android:visibility="gone" >
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/botton"
+        android:layout_width="fill_parent"
+        android:layout_height="150dip"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="55dip"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/msgText"
+                android:layout_width="fill_parent"
+                android:layout_height="55dip"
+                android:layout_marginRight="70dp"
+                android:hint="请输入内容"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/send_msg"
+                android:layout_width="fill_parent"
+                android:layout_height="55dip"
+                android:layout_marginLeft="-65dp"
+                android:text="发送"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/msgLL"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="50dp"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="向右边点"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <TextView   android:layout_gravity="center"   android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="向左边点"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <TextView   android:layout_gravity="center"
+                    android:layout_width="wrap_content"   android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="可以了"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <TextView   android:layout_gravity="center"
+                    android:layout_width="wrap_content"   android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="能听到吗"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="55dp"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <TextView   android:layout_gravity="center"
+                     android:gravity="center" 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="向前边点"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <TextView   android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="向后边点"   android:gravity="center"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <TextView   android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="信号不太好"   android:gravity="center"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <TextView   android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"   android:gravity="center"
+                    android:text="收到"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/botton"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/msgListView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:cacheColorHint="#00000000"
+            android:divider="#EAEAEA"
+            android:dividerHeight="1dip"
+            android:drawSelectorOnTop="false"
+            android:fadingEdgeLength="0.0sp"
+            android:scrollbars="none" />
+    </LinearLayout>
+
+</RelativeLayout>

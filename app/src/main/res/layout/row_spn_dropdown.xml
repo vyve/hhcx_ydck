@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="37dp"
+	android:orientation="vertical">
+    <TextView
+	    android:id="@+id/row_spn_tv"
+	    android:layout_width="match_parent"
+	    android:layout_height="36dp"
+	    android:gravity="center_vertical"
+	    android:paddingLeft="16dp"
+	    android:paddingRight="16dp"
+		android:textColor="@color/wordColor2"
+		android:textSize="12sp"
+		android:background="@color/all_white"/>
+
+	<View
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="@color/back_color"/>
+
+</LinearLayout>
+

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/body"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#F2F2F2"
+    android:orientation="vertical" >
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/botton"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/taskinfo"
+                android:layout_width="80dp"
+                android:layout_height="33dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/btn_gray_click"
+                android:text="任务信息"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dip"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="2dp"
+                android:orientation="horizontal" >
+
+                <com.estar.hh.survey.view.component.video.SegmentedRadioGroup
+                    android:id="@+id/btns"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:checkedButton="@+id/button_one"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@id/button_one"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:button="@null"
+                        android:drawableLeft="@mipmap/bar_video"
+                        android:gravity="center"
+                        android:text="视频"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/black" />
+
+                    <RadioButton
+                        android:id="@+id/button_two"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:button="@null"
+                        android:drawableLeft="@mipmap/bar_picter"
+                        android:gravity="center"
+                        android:text="图片"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/black" />
+
+                    <RadioButton
+                        android:id="@+id/button_three"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:button="@null"
+                        android:drawableLeft="@mipmap/bar_msg"
+                        android:gravity="center"
+                        android:text="消息"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/black" />
+                </com.estar.hh.survey.view.component.video.SegmentedRadioGroup>
+            </LinearLayout>
+        </LinearLayout>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/tabpager"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </LinearLayout>
+ <!--<com.estar.hh.survey.view.component.video.FloatingActionsMenu
+       xmlns:fab="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/floatingActionsMenu"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        fab:fab_addButtonColorNormal="@color/white"
+        fab:fab_addButtonColorPressed="@color/white_pressed"
+        fab:fab_addButtonSize="normal"
+        fab:fab_addButtonPlusIconColor="@color/half_black"
+        fab:fab_addButtonStrokeVisible="false"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        />-->
+</RelativeLayout>

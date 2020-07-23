@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back_color">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/back_color"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/all_white">
+
+        <EditText
+            android:id="@+id/mission_list_caseno_search"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:layout_weight="1"
+            android:background="@drawable/grecardview"
+            android:layout_margin="10dp"
+            android:gravity="center_vertical"
+            android:text=""
+            android:textSize="12sp"
+            android:textColor="@color/wordColor"
+            android:maxLength="30"
+            android:hint="报案号/车牌号/损失名称"
+            android:textColorHint="@color/wordColor1"
+            android:paddingLeft="15dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="10dp">
+
+            <LinearLayout
+                android:id="@+id/mission_list_casestep_layout"
+                android:layout_width="67dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_marginLeft="18dp">
+
+                <TextView
+                    android:id="@+id/mission_list_casestep_text"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/wordColor"
+                    android:textSize="12sp"
+                    android:gravity="center"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/state_select_arrow"
+                    android:layout_marginLeft="5dp"/>
+
+            </LinearLayout>
+            <!--<com.rey.material.widget.Spinner
+                android:id="@+id/mission_list_casestep"
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="18dp"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp"
+                style="@style/spinner_style"
+                app:v_styleId="@array/spinner"/>-->
+
+            <TextView
+                android:id="@+id/mission_list_time_start"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:text=""
+                android:textColor="@color/wordColor2"
+                android:textSize="12sp"
+                android:background="@drawable/grecardview"
+                android:gravity="center"
+                android:paddingLeft="7dp"
+                android:paddingRight="7dp"
+                android:layout_marginLeft="15dp"/>
+            
+            <View
+                android:layout_width="15dp"
+                android:layout_height="1dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:background="@color/wordColor2"/>
+
+            <TextView
+                android:id="@+id/mission_list_time_end"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:text=""
+                android:textColor="@color/wordColor2"
+                android:textSize="12sp"
+                android:background="@drawable/grecardview"
+                android:gravity="center"
+                android:paddingLeft="7dp"
+                android:paddingRight="7dp"/>
+
+            <ImageView
+                android:id="@+id/mission_list_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/mission_search"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <view.XListView
+        android:id="@+id/mission_list_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:scrollbars="none"
+        android:divider="@null"
+        android:dividerHeight="5dp"/>
+
+</LinearLayout>

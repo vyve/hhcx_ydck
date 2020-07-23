@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bodyLL"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/popwindow_bg"
+    android:orientation="vertical" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"/>
+    <TextView
+        android:id="@+id/reghtText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="15dp"
+        android:text="1"
+        android:textColor="#ffffff"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/centerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/reghtText"
+        android:text="/"
+        android:textColor="#ffffff"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/leftText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignTop="@+id/centerText"
+        android:layout_toLeftOf="@+id/centerText"
+        android:text="1"
+        android:textColor="#ffffff"
+        android:textSize="25sp" />
+    <RelativeLayout
+        android:id="@+id/downLL"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView android:layout_marginTop="10dp"
+            android:id="@+id/del"
+            android:layout_width="wrap_content"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="3dp"
+            android:text="删除"
+            android:layout_marginLeft="10dp"
+            android:textColor="#e84e40"
+            android:textSize="22sp" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

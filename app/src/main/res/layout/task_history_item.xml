@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:background="@drawable/cardview">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="报案号"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp"
+                android:layout_marginLeft="12dp"/>
+
+            <TextView
+                android:id="@+id/task_history_item_rptno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/wordColor2"
+                android:textSize="12sp"
+                android:layout_marginLeft="20dp"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/back_color"
+            android:layout_marginLeft="90dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="被保险人"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp"
+                android:layout_marginLeft="12dp"/>
+
+            <TextView
+                android:id="@+id/task_history_item_people"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/wordColor2"
+                android:textSize="12sp"
+                android:layout_marginLeft="20dp"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/back_color"
+            android:layout_marginLeft="90dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="报案时间"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp"
+                android:layout_marginLeft="12dp"/>
+
+            <TextView
+                android:id="@+id/task_history_item_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/wordColor2"
+                android:textSize="12sp"
+                android:layout_marginLeft="20dp"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/back_color"
+            android:layout_marginLeft="90dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="出险时间"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp"
+                android:layout_marginLeft="12dp"/>
+
+            <TextView
+                android:id="@+id/task_history_item_risktime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/wordColor2"
+                android:textSize="12sp"
+                android:layout_marginLeft="20dp"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/back_color"
+            android:layout_marginLeft="90dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="出险地址"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp"
+                android:layout_marginLeft="12dp"/>
+
+            <TextView
+                android:id="@+id/task_history_item_riskplace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/wordColor2"
+                android:textSize="12sp"
+                android:layout_marginLeft="20dp"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/back_color"
+            android:layout_marginLeft="90dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="赔款金额"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp"
+                android:layout_marginLeft="12dp"/>
+
+            <TextView
+                android:id="@+id/task_history_item_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/wordColor2"
+                android:textSize="12sp"
+                android:layout_marginLeft="20dp"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/back_color"
+            android:layout_marginLeft="90dp"/>
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="48dp"
+                android:layout_height="wrap_content"
+                android:text="保单类型"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp"
+                android:layout_marginLeft="12dp"/>
+
+            <TextView
+                android:id="@+id/task_history_item_plykind"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/wordColor2"
+                android:textSize="12sp"
+                android:layout_marginLeft="20dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/back_color"
+        android:visibility="gone"/>
+    
+    <LinearLayout
+        android:id="@+id/task_history_item_in"
+        android:layout_width="33dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/right_arrow"/>
+
+    </LinearLayout>
+
+</LinearLayout>

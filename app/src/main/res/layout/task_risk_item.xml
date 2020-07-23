@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:background="@drawable/cardview">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="险别代码"
+            android:textColor="@color/wordColor"
+            android:textSize="12sp"
+            android:layout_marginLeft="15dp"/>
+        
+        <TextView
+            android:id="@+id/task_risk_item_riskcode"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/wordColor2"
+            android:textSize="12sp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="险别名称"
+            android:textColor="@color/wordColor"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/task_risk_item_riskname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/wordColor2"
+            android:textSize="12sp"
+            android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/back_color"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="不计免赔"
+            android:textColor="@color/wordColor"
+            android:textSize="12sp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:id="@+id/task_risk_item_nopay"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/wordColor2"
+            android:textSize="12sp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="保险金额"
+            android:textColor="@color/wordColor"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/task_risk_item_riskcount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/wordColor2"
+            android:textSize="12sp"
+            android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

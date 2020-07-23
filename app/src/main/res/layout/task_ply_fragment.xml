@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back_color">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/cardview"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="报案号"
+                android:textSize="12sp"
+                android:textColor="@color/wordColor"
+                android:paddingLeft="15dp"/>
+
+            <TextView
+                android:id="@+id/task_ply_caseno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="3123432123123"
+                android:textSize="12sp"
+                android:textColor="@color/wordColor2"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/back_color"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="保单号"
+                android:textSize="12sp"
+                android:textColor="@color/wordColor"
+                android:paddingLeft="15dp"/>
+
+            <TextView
+                android:id="@+id/task_ply_plyno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="13277057955"
+                android:textSize="12sp"
+                android:textColor="@color/wordColor2"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/back_color"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="归属机构名"
+                android:textSize="12sp"
+                android:textColor="@color/wordColor"
+                android:paddingLeft="15dp"/>
+
+            <TextView
+                android:id="@+id/task_ply_orgname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="黄河财险"
+                android:textSize="12sp"
+                android:textColor="@color/wordColor2"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/back_color"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="条款类别名称"
+                android:textSize="12sp"
+                android:textColor="@color/wordColor"
+                android:paddingLeft="15dp"/>
+
+            <TextView
+                android:id="@+id/task_ply_classname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="机动车商业保险"
+                android:textSize="12sp"
+                android:textColor="@color/wordColor2"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/back_color"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="险种代码"
+                android:textSize="12sp"
+                android:textColor="@color/wordColor"
+                android:paddingLeft="15dp"/>
+
+            <TextView
+                android:id="@+id/task_ply_casekind"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="0351"
+                android:textSize="12sp"
+                android:textColor="@color/wordColor2"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/back_color"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="险种名称"
+                android:textSize="12sp"
+                android:textColor="@color/wordColor"
+                android:paddingLeft="15dp"/>
+
+            <TextView
+                android:id="@+id/task_ply_casename"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="机动车商业险"
+                android:textSize="12sp"
+                android:textColor="@color/wordColor2"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

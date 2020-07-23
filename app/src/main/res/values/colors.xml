@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <!-- 移动查勘自定义颜色 -->
+    <color name="title_bar">#474ecb</color>
+    <color name="all_white">#ffffff</color>
+    <color name="back_color">#f3f3f3</color>
+    <color name="button_lan">#2c82d7</color>
+    <color name="button_lan_click">#1b68b4</color>
+    <color name="radioInit">#a0a0a0</color>
+    <color name="blue">#007AFF</color>
+    <color name="iconColor">#2c82d7</color>
+
+
+    <color name="black">#000000</color>
+    <color name="contact_line">#cecece</color>
+    <color name="line">#e5e5e5</color>
+    <color name="contact_back">#f5f5f5</color>
+    <color name="editColor">#c6c6c6</color>
+    <color name="orangeText">#fa9f16</color>
+    <color name="wordColor">#474747</color>
+    <color name="wordColor1">#a4a4a4</color>
+    <color name="wordColor2">#919191</color>
+    
+    <color name="home_mission_item">#f5f5f5</color>
+    <color name="process_line">#676767</color>
+    <color name="underline_line">#f28700</color>
+
+
+    <color name="colorControlNormal">#717171</color>
+    <color name="colorControlActivated">#FF03A9F4</color>
+    <color name="colorSwitchThumbNormal">#ffffff</color>
+
+</resources>

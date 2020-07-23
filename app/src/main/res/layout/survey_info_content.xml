@@ -1,0 +1,846 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back_color">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/cardview"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:id="@+id/survey_info_loss_type_layout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="损失类别"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp"
+                android:layout_marginLeft="15dp"/>
+
+            <TextView
+                android:id="@+id/survey_info_loss_type"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:gravity="right"
+                android:textColor="@color/wordColor2"
+                android:textSize="12sp"
+                android:hint="请选择"
+                android:textColorHint="@color/editColor"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/right_arrow"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="8dp"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/back_color"/>
+
+        <LinearLayout
+            android:id="@+id/survey_info_risk_reason_layout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="出险原因"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp"
+                android:layout_marginLeft="15dp"/>
+
+            <TextView
+                android:id="@+id/survey_info_risk_reason"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:gravity="right"
+                android:textColor="@color/wordColor2"
+                android:textSize="12sp"
+                android:hint="请选择"
+                android:textColorHint="@color/editColor"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/right_arrow"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="8dp"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/back_color"/>
+
+        <LinearLayout
+            android:id="@+id/survey_info_risk_type_layout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="事故类型"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp"
+                android:layout_marginLeft="15dp"/>
+
+            <TextView
+                android:id="@+id/survey_info_risk_type"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:gravity="right"
+                android:textColor="@color/wordColor2"
+                android:textSize="12sp"
+                android:hint="请选择"
+                android:textColorHint="@color/editColor"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/right_arrow"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="8dp"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/back_color"/>
+
+        <LinearLayout
+            android:id="@+id/survey_info_class_type_layout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="保险事故分类"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp"
+                android:layout_marginLeft="15dp"/>
+
+            <TextView
+                android:id="@+id/survey_info_class_type"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:gravity="right"
+                android:textColor="@color/wordColor2"
+                android:textSize="12sp"
+                android:hint="请选择"
+                android:textColorHint="@color/editColor"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/right_arrow"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="8dp"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/back_color"/>
+
+        <LinearLayout
+            android:id="@+id/survey_info_risktime_layout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="查勘日期"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp"
+                android:layout_marginLeft="15dp"/>
+
+            <TextView
+                android:id="@+id/survey_info_risktime"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:gravity="right"
+                android:textColor="@color/wordColor2"
+                android:textSize="12sp"
+                android:hint="请选择"
+                android:textColorHint="@color/editColor"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/right_arrow"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="8dp"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/back_color"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="查勘地点"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp"
+                android:layout_marginLeft="15dp"/>
+
+            <EditText
+                android:id="@+id/survey_info_survey_address"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/wordColor2"
+                android:textSize="12sp"
+                android:hint="请输入查勘地点"
+                android:textColorHint="@color/editColor"
+                android:gravity="right"
+                android:background="@null"
+                android:maxLength="18"/>
+
+            <LinearLayout
+                android:id="@+id/survey_info_survey_address_refresh"
+                android:layout_width="33dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/address_refresh"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:text="查勘人身份证号"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/survey_info_creditno"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text=""
+                android:textColor="@color/wordColor2"
+                android:textSize="12sp"
+                android:hint="请输入查勘人身份证号"
+                android:textColorHint="@color/editColor"
+                android:gravity="right"
+                android:background="@null"
+                android:maxLength="18"
+                android:maxLines="1"/>
+
+            <ImageView
+                android:id="@+id/survey_info_creditno_ocr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:background="@mipmap/ocr" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/back_color" />
+
+        <LinearLayout
+            android:id="@+id/survey_info_bussiness_layout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="是否属于商业责任险"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp"
+                android:layout_marginLeft="15dp"/>
+
+            <com.estarview.ToggleButtonView
+                android:id="@+id/survey_info_isbussiness"
+                android:layout_width="48dp"
+                android:layout_height="22dp"
+                android:layout_marginRight="15dp"
+                android:textOff="否"
+                android:textOn="是"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/survey_info_bussiness_duty_layout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/back_color"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <View
+                android:layout_width="15dp"
+                android:layout_height="match_parent"
+                android:background="@color/all_white"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_weight="1"
+                android:text="商业险赔偿责任"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/survey_info_bussiness_duty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/wordColor2"
+                android:textSize="12sp"
+                android:hint="请选择"
+                android:textColorHint="@color/editColor"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/right_arrow"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="8dp"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/back_color"/>
+
+        <LinearLayout
+            android:id="@+id/survey_info_usual_layout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="是否属于交强险责任"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp"
+                android:layout_marginLeft="15dp"/>
+
+            <com.estarview.ToggleButtonView
+                android:id="@+id/survey_info_isusual"
+                android:layout_width="48dp"
+                android:layout_height="22dp"
+                android:layout_marginRight="15dp"
+                android:textOff="否"
+                android:textOn="是"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/survey_info_usual_duty_layout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@color/back_color"
+            android:visibility="gone">
+
+            <View
+                android:layout_width="15dp"
+                android:layout_height="match_parent"
+                android:background="@color/all_white"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="交强险赔偿责任"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp"
+                android:layout_marginLeft="25dp"/>
+
+            <com.estarview.ToggleButtonView
+                android:id="@+id/survey_info_usual_duty"
+                android:layout_width="48dp"
+                android:layout_height="22dp"
+                android:layout_marginRight="15dp"
+                android:textOff="否"
+                android:textOn="是"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/back_color"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="是否新增人伤"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp"
+                android:layout_marginLeft="15dp"/>
+
+            <com.estarview.ToggleButtonView
+                android:id="@+id/survey_info_personadd"
+                android:layout_width="48dp"
+                android:layout_height="22dp"
+                android:layout_marginRight="15dp"
+                android:textOff="否"
+                android:textOn="是"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/back_color"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="重大赔案标识"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp"
+                android:layout_marginLeft="15dp"/>
+
+            <com.estarview.ToggleButtonView
+                android:id="@+id/survey_info_reserveflag"
+                android:layout_width="48dp"
+                android:layout_height="22dp"
+                android:layout_marginRight="15dp"
+                android:textOff="否"
+                android:textOn="是"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/back_color"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="是否水淹车"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp"
+                android:layout_marginLeft="15dp"/>
+
+            <com.estarview.ToggleButtonView
+                android:id="@+id/survey_info_isFloordedCar"
+                android:layout_width="48dp"
+                android:layout_height="22dp"
+                android:layout_marginRight="15dp"
+                android:textOff="否"
+                android:textOn="是"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/survey_info_floorlevel_layout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/back_color"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <View
+                android:layout_width="15dp"
+                android:layout_height="match_parent"
+                android:background="@color/all_white"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_weight="1"
+                android:text="水淹等级"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/survey_info_floorlevel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/wordColor2"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/right_arrow"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="8dp"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/back_color"/>
+
+        <LinearLayout
+            android:id="@+id/survey_info_case_type_layout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="事故原因"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp"
+                android:layout_marginLeft="15dp"/>
+
+            <TextView
+                android:id="@+id/survey_info_case_type"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:gravity="right"
+                android:textColor="@color/wordColor2"
+                android:textSize="12sp"
+                android:hint="请选择"
+                android:textColorHint="@color/editColor"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/right_arrow"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="8dp"/>
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/back_color"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="有无交管事故书"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp"
+                android:layout_marginLeft="15dp"/>
+
+            <com.estarview.ToggleButtonView
+                android:id="@+id/survey_info_haveBook"
+                android:layout_width="48dp"
+                android:layout_height="22dp"
+                android:layout_marginRight="15dp"
+                android:textOff="否"
+                android:textOn="是"/>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/back_color"/>
+
+        <LinearLayout
+            android:id="@+id/survey_info_isfirstplace_layout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="是否第一现场"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp"
+                android:layout_marginLeft="15dp"/>
+
+            <TextView
+                android:id="@+id/survey_info_isfirstplace"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:gravity="right"
+                android:textColor="@color/wordColor2"
+                android:textSize="12sp"
+                android:hint="请选择"
+                android:textColorHint="@color/editColor"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/right_arrow"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="8dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="互碰自赔"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp"
+                android:layout_marginLeft="15dp"/>
+
+            <com.estarview.ToggleButtonView
+                android:id="@+id/survey_info_payself"
+                android:layout_width="48dp"
+                android:layout_height="22dp"
+                android:layout_marginRight="15dp"
+                android:textOff="否"
+                android:textOn="是"/>
+
+        </LinearLayout>
+
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@color/back_color"
+            android:layout_marginLeft="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="代位标识"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp"
+                android:layout_marginLeft="25dp"/>
+
+            <com.estarview.ToggleButtonView
+                android:id="@+id/survey_info_sign"
+                android:layout_width="48dp"
+                android:layout_height="22dp"
+                android:layout_marginRight="15dp"
+                android:textOff="否"
+                android:textOn="是"/>
+
+        </LinearLayout>-->
+
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@color/back_color"
+            android:layout_marginLeft="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="被代位标识"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp"
+                android:layout_marginLeft="25dp"/>
+
+            <com.estarview.ToggleButtonView
+                android:id="@+id/survey_info_besign"
+                android:layout_width="48dp"
+                android:layout_height="22dp"
+                android:layout_marginRight="15dp"
+                android:textOff="否"
+                android:textOn="是"/>
+
+        </LinearLayout>-->
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/back_color"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="预估金额"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp"
+                android:layout_marginLeft="15dp"/>
+
+            <EditText
+                android:id="@+id/survey_info_survey_amount"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/wordColor2"
+                android:textSize="12sp"
+                android:hint="请输入预估金额"
+                android:textColorHint="@color/editColor"
+                android:gravity="right"
+                android:background="@null"
+                android:maxLength="7"
+                android:inputType="numberDecimal"
+                android:layout_marginRight="15dp"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/back_color"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="14dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="查勘意见"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp"
+                android:layout_marginLeft="15dp"/>
+
+            <EditText
+                android:id="@+id/survey_info_survey_optition"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:hint="请输入查勘意见"
+                android:textColorHint="@color/editColor"
+                android:text=""
+                android:textSize="12sp"
+                android:textColor="@color/wordColor2"
+                android:gravity="right"
+                android:maxLength="200"
+                android:layout_marginRight="15dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

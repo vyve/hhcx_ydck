@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/esa"
+    android:orientation="vertical" >
+
+    <TextView android:layout_marginLeft="5dp"
+        android:id="@+id/taskId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="17sp" />
+
+    <TextView android:layout_marginLeft="5dp"
+        android:id="@+id/reportTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="17sp" />
+
+    <TextView android:layout_marginLeft="5dp"
+        android:id="@+id/carNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="17sp" />
+
+    <TextView android:layout_marginLeft="5dp"
+        android:id="@+id/insurenameName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="17sp" />
+
+    <TextView android:layout_marginLeft="5dp"
+        android:id="@+id/insurenameMobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="17sp" />
+
+    <TextView android:layout_marginLeft="5dp"
+        android:id="@+id/setLossName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="17sp" />
+
+    <TextView android:layout_marginLeft="5dp"
+        android:id="@+id/lossMobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="17sp" />
+
+    <TextView android:layout_marginLeft="5dp"
+        android:id="@+id/remark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="17sp" />
+    <TextView android:layout_marginLeft="5dp"
+        android:id="@+id/dangerAfter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="17sp" />
+</LinearLayout>

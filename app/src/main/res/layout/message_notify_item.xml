@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/all_white">
+
+    <LinearLayout
+        android:id="@+id/message_notify_item_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp">
+
+            <TextView
+                android:id="@+id/message_notify_item_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="国庆节放假通知"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp"
+                android:layout_marginTop="8dp"/>
+
+
+            <TextView
+                android:id="@+id/message_notify_item_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="国庆节放假8天，从10月1日到10.8日"
+                android:textColor="@color/wordColor2"
+                android:textSize="12sp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="10dp"
+                android:lineSpacingExtra="5dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

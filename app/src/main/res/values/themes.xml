@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="spinner">
+        <item>@style/LightSpinner</item>
+        <item>@style/DarkSpinner</item>
+    </array>
+
+    <array name="spinner_item">
+        <item>@style/LightSpinnerItem</item>
+        <item>@style/DarkSpinnerItem</item>
+    </array>
+
+    <array name="checkbox">
+        <item>@style/LightCheckBoxDrawable</item>
+        <item>@style/DarkCheckBoxDrawable</item>
+    </array>
+</resources>

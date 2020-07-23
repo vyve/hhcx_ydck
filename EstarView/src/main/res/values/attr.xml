@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Lock9View">
+        <attr name="lock9_nodeSrc" format="color|reference" />
+        <attr name="lock9_nodeOnSrc" format="color|reference" />
+        <attr name="lock9_nodeSize" format="dimension" />
+        <attr name="lock9_nodeAreaExpand" format="dimension" />
+        <attr name="lock9_nodeOnAnim" format="reference" />
+        <attr name="lock9_lineColor" format="color" />
+        <attr name="lock9_lineWidth" format="dimension" />
+        <attr name="lock9_padding" format="dimension" />
+        <attr name="lock9_spacing" format="dimension" />
+        <attr name="lock9_autoLink" format="boolean" />
+        <attr name="lock9_enableVibrate" format="boolean" />
+        <attr name="lock9_vibrateTime" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="SegmentedGroup">
+        <attr name="sc_corner_radius" format="dimension" />
+        <attr name="sc_border_width" format="dimension" />
+        <attr name="sc_tint_color" format="color" />
+        <attr name="sc_checked_text_color" format="color" />
+        <attr name="sc_unchecked_tint_color" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="AwesomeRadioButton">
+        <attr name="awesome_text" format="string"/>
+    </declare-styleable>
+    <declare-styleable name="expandableLayout">
+        <attr name="ael_duration" format="integer" />
+        <attr name="ael_expanded" format="boolean" />
+        <attr name="ael_defaultChildIndex" format="integer" />
+        <attr name="ael_defaultPosition" format="dimension" />
+        <attr name="ael_orientation" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+        <attr name="ael_interpolator" format="enum">
+            <enum name="accelerateDecelerate" value="0" />
+            <enum name="accelerate" value="1" />
+            <enum name="anticipate" value="2" />
+            <enum name="anticipateOvershoot" value="3" />
+            <enum name="bounce" value="4" />
+            <enum name="decelerate" value="5" />
+            <enum name="fastOutLinearIn" value="6" />
+            <enum name="fastOutSlowIn" value="7" />
+            <enum name="linear" value="8" />
+            <enum name="linearOutSlowIn" value="9" />
+            <enum name="overshoot" value="10" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="FloatingActionButton">
+        <attr name="fab_colorPressed" format="color" />
+        <attr name="fab_colorNormal" format="color" />
+        <attr name="fab_colorRipple" format="color" />
+        <attr name="fab_colorDisabled" format="color" />
+        <attr name="fab_shadow" format="boolean" />
+        <attr name="fab_type" format="enum">
+            <enum name="normal" value="0" />
+            <enum name="mini" value="1" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="mycheckbox">
+        <attr name="spacing" format="integer" />
+        <attr name="ctext" format="string" />
+        <attr name="ctext_size" format="integer" />
+        <attr name="ctext_color" format="color" />
+        <attr name="checked" format="boolean" />
+        <attr name="src" format="reference" />
+    </declare-styleable>
+
+
+    <declare-styleable name="ChangeColorIconWithText">
+        <attr name="icon2" format="reference"></attr>
+        <attr name="color2" format="color"></attr>
+        <attr name="text2" format="string"></attr>
+        <attr name="text_size2" format="dimension"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="SVCircleProgressBar">
+        <attr name="roundColor" format="color"/>
+        <attr name="roundProgressColor" format="color"/>
+        <attr name="roundWidth" format="dimension"></attr>
+        <attr name="max" format="integer"></attr>
+        <attr name="style">
+            <enum name="STROKE" value="0"></enum>
+            <enum name="FILL" value="1"></enum>
+        </attr>
+    </declare-styleable>
+
+    <attr name="fl_theme" format="reference" />
+
+    <attr name="fl_fontFamily" format="string" />
+    <attr name="fl_fontWeight" format="string" />
+    <attr name="fl_fontExtension" format="string" />
+    <attr name="fl_textAppearance" format="integer">
+        <enum name="fl_none" value="0" />
+        <enum name="fl_dark" value="1" />
+        <enum name="fl_light" value="2" />
+    </attr>
+
+    <attr name="fl_cornerRadius" format="dimension" />
+    <attr name="fl_borderWidth" format="dimension" />
+    <attr name="fl_size" format="dimension" />
+
+    <attr name="fl_touchEffect" format="integer">
+        <enum name="fl_none" value="0" />
+        <enum name="fl_ease" value="1" />
+        <enum name="fl_ripple" value="2" />
+    </attr>
+
+    <attr name="fl_dotMargin" format="dimension" />
+
+    <!-- FlatButton -->
+    <declare-styleable name="fl_FlatButton">
+        <attr name="fl_theme" />
+        <attr name="fl_fontFamily" />
+        <attr name="fl_fontWeight" />
+        <attr name="fl_fontExtension" />
+        <attr name="fl_textAppearance" />
+        <attr name="fl_cornerRadius" />
+        <attr name="fl_touchEffect" />
+
+        <!-- Defines the height of the border bottom of the button -->
+        <attr name="fl_blockButtonEffectHeight" format="dimension" />
+    </declare-styleable>
+
+    <!-- Flat Check Box -->
+    <declare-styleable name="fl_FlatCheckBox">
+        <attr name="fl_theme" />
+        <attr name="fl_fontFamily" />
+        <attr name="fl_fontWeight" />
+        <attr name="fl_fontExtension" />
+        <attr name="fl_cornerRadius" />
+        <attr name="fl_size" />
+        <attr name="fl_dotMargin" />
+    </declare-styleable>
+
+    <!-- Flat Edit Text -->
+    <declare-styleable name="fl_FlatEditText">
+        <attr name="fl_theme" />
+        <attr name="fl_fontFamily" />
+        <attr name="fl_fontWeight" />
+        <attr name="fl_fontExtension" />
+        <attr name="fl_textAppearance" />
+        <attr name="fl_cornerRadius" />
+        <attr name="fl_borderWidth" />
+        <attr name="fl_fieldStyle" format="integer">
+            <enum name="fl_flat" value="0" />
+            <enum name="fl_box" value="1" />
+            <enum name="fl_transparent" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <!-- Flat AutoCompleteTextView Text -->
+    <declare-styleable name="fl_FlatAutoCompleteTextView">
+        <attr name="fl_theme" />
+        <attr name="fl_fontFamily" />
+        <attr name="fl_fontWeight" />
+        <attr name="fl_fontExtension" />
+        <attr name="fl_textAppearance" />
+        <attr name="fl_cornerRadius" />
+        <attr name="fl_borderWidth" />
+        <attr name="fl_autoFieldStyle" format="integer">
+            <enum name="flat" value="0" />
+            <enum name="box" value="1" />
+            <enum name="transparent" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <!-- Flat Radio Button -->
+    <declare-styleable name="fl_FlatRadioButton">
+        <attr name="fl_theme" />
+        <attr name="fl_fontFamily" />
+        <attr name="fl_fontWeight" />
+        <attr name="fl_fontExtension" />
+        <attr name="fl_borderWidth" />
+        <attr name="fl_size" />
+        <attr name="fl_dotMargin" />
+    </declare-styleable>
+
+    <!-- Flat Seek Bar -->
+    <declare-styleable name="fl_FlatSeekBar">
+        <attr name="fl_theme" />
+        <attr name="fl_size" />
+    </declare-styleable>
+
+    <!-- Flat Text View -->
+    <declare-styleable name="fl_FlatTextView">
+        <attr name="fl_theme" />
+        <attr name="fl_fontFamily" />
+        <attr name="fl_fontWeight" />
+        <attr name="fl_fontExtension" />
+        <attr name="fl_cornerRadius" />
+        <attr name="fl_borderWidth" />
+        <attr name="fl_textColor" format="integer">
+            <enum name="fl_darker" value="0" />
+            <enum name="fl_dark" value="1" />
+            <enum name="fl_main" value="2" />
+            <enum name="fl_light" value="3" />
+        </attr>
+        <attr name="fl_backgroundColor" format="integer">
+            <enum name="fl_darker" value="0" />
+            <enum name="fl_dark" value="1" />
+            <enum name="fl_main" value="2" />
+            <enum name="fl_light" value="3" />
+        </attr>
+        <attr name="fl_customBackgroundColor" format="color" />
+    </declare-styleable>
+
+    <!-- Flat Toggle Button -->
+    <declare-styleable name="fl_FlatToggleButton">
+        <attr name="fl_theme" />
+        <attr name="fl_cornerRadius" />
+        <attr name="fl_space" format="dimension" />
+    </declare-styleable>
+</resources>

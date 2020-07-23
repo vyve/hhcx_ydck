@@ -1,0 +1,49 @@
+<script type="text/javascript">
+    var result = JavaScriptInterface.jsontohtml();
+    var obj = eval("("+result+")");//解析json字符串
+    function showAndroidToast(toast)
+    {
+        JavaScriptInterface.showToast(toast);
+    }
+    function startActivity(){
+        JavaScriptInterface.toActivity();
+    }
+    function getjsonData(){
+        var result = JavaScriptInterface.jsontohtml();
+        var obj = eval("("+result+")");//解析json字符串
+        for(i=0;i<obj.length;i++){
+            var user=obj[i];
+            document.write("<p>姓名:"+user.name+"</p>");
+            document.write("<p>年龄:"+user.age+"</p>");
+            document.write("<p>地址:"+user.address+"</p>");
+            if(user.phone!=null){
+                document.write("<p>手机号码:"+user.address+"</p>");
+            }
+        }
+    }
+    function list(){
+        document.write("<div data-role='header'><p>another</p></div>");
+    }
+    </script>
+</head>
+<body>
+<div data-role="page" >
+    <div data-role="header" data-theme="c">
+        <h1>Android via Interface</h1>
+    </div><!-- /header -->
+    <div data-role="content">
+        <button value="say hello" onclick="showAndroidToast('Hello,Android!')" data-theme="e"></button>
+        <button value="get json data" onclick="getjsonData()" data-theme="e"></button>
+        <button value="startActivity" onclick="startActivity()" data-theme="e"></button>
+    </div><!-- /content -->
+    <div data-role="collapsible" data-theme="c" data-content-theme="f">
+        <h3>I'm <script>document.write(obj[0].name);</script>,click to see my info</h3>
+        <p><script>document.write("<p>姓名："+obj[0].name+"</p>");</script></p>
+        <p><script>document.write("<p>年龄："+obj[0].age+"</p>");</script></p>
+        <p><script>document.write("<p>地址："+obj[0].address+"</p>");</script></p>
+    </div>
+    <div data-role="footer" data-theme="c">
+        <h4>Page Footer</h4>
+    </div><!-- /footer -->
+</div><!-- /page -->
+</body>

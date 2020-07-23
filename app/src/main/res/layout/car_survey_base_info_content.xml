@@ -1,0 +1,976 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back_color"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/cardview"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/car_survey_base_carno_layout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:text="车牌号"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/car_survey_base_carno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:text=""
+                android:textColor="@color/wordColor2"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/back_color" />
+
+        <LinearLayout
+            android:id="@+id/car_survey_base_carnotype_layout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:text="号牌种类"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/car_survey_base_carnotype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="请选择"
+                android:text=""
+                android:textColor="@color/wordColor2"
+                android:textColorHint="@color/editColor"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="15dp"
+                android:background="@mipmap/right_arrow" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/back_color" />
+
+        <LinearLayout
+            android:id="@+id/car_survey_base_cartype_layout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:text="车辆种类"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/car_survey_base_cartype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="请选择"
+                android:text=""
+                android:textColor="@color/wordColor2"
+                android:textColorHint="@color/editColor"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="15dp"
+                android:background="@mipmap/right_arrow" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/back_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:text="车架号"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/car_survey_base_vinno"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@null"
+                android:gravity="right"
+                android:hint="请输入车架号"
+                android:maxLines="10"
+                android:text=""
+                android:textColor="@color/wordColor2"
+                android:textColorHint="@color/editColor"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/car_survey_base_vinno_ocr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:background="@mipmap/ocr" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:text="发动机号"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/car_survey_base_engineno"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@null"
+                android:gravity="right"
+                android:hint="请输入发动机号"
+                android:maxLength="20"
+                android:text=""
+                android:textColor="@color/wordColor2"
+                android:textColorHint="@color/editColor"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/car_survey_base_engineno_ocr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:background="@mipmap/ocr" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/back_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:text="驾驶人姓名"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/car_survey_base_driver"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@null"
+                android:gravity="right"
+                android:hint="请输入驾驶人姓名"
+                android:maxLines="10"
+                android:text=""
+                android:textColor="@color/wordColor2"
+                android:textColorHint="@color/editColor"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/car_survey_base_driver_ocr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:background="@mipmap/ocr" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:text="驾驶人身份证号"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/car_survey_base_creditno"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@null"
+                android:gravity="right"
+                android:hint="请输入驾驶人身份证号"
+                android:maxLength="18"
+                android:text=""
+                android:textColor="@color/wordColor2"
+                android:textColorHint="@color/editColor"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/car_survey_base_creditno_ocr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:background="@mipmap/ocr" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:text="驾驶人手机号"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/car_survey_base_telno"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:background="@null"
+                android:gravity="right"
+                android:hint="请输入驾驶人手机号"
+                android:inputType="number"
+                android:maxLength="11"
+                android:text=""
+                android:textColor="@color/wordColor2"
+                android:textColorHint="@color/editColor"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/survey_info_driversex_layout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:text="驾驶人性别"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="(绿色为男)"
+                android:textColor="@color/editColor"
+                android:textSize="12sp" />
+
+            <com.estarview.ToggleButtonView
+                android:id="@+id/survey_info_driversex"
+                android:layout_width="48dp"
+                android:layout_height="22dp"
+                android:layout_marginRight="15dp"
+                android:textOff="否"
+                android:textOn="是" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/car_survey_base_driveraddress_layout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:text="驾驶人属地"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/car_survey_base_driveraddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="请选择"
+                android:text=""
+                android:textColor="@color/wordColor2"
+                android:textColorHint="@color/editColor"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="15dp"
+                android:background="@mipmap/right_arrow" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/back_color" />
+
+        <LinearLayout
+            android:id="@+id/survey_info_isFloordedCar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:text="是否水淹车"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp" />
+
+            <com.estarview.ToggleButtonView
+                android:id="@+id/survey_info_isFloordedCar"
+                android:layout_width="48dp"
+                android:layout_height="22dp"
+                android:layout_marginRight="15dp"
+                android:textOff="否"
+                android:textOn="是" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/survey_info_floorlevel_layout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/back_color"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <View
+                android:layout_width="15dp"
+                android:layout_height="match_parent"
+                android:background="@color/all_white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_weight="1"
+                android:text="水淹等级"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/survey_info_floorlevel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="请选择水淹等级"
+                android:text=""
+                android:textColor="@color/wordColor2"
+                android:textColorHint="@color/editColor"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="15dp"
+                android:background="@mipmap/right_arrow" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/back_color" />
+
+        <LinearLayout
+            android:id="@+id/car_survey_base_def_code"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:text="定损省市"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/car_survey_base_def_pro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="请选择"
+                android:text=""
+                android:textColor="@color/wordColor2"
+                android:textColorHint="@color/editColor"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="15dp"
+                android:background="@mipmap/right_arrow" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/back_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:text="定损地点"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/car_survey_base_place"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@null"
+                android:gravity="right"
+                android:hint="请输入定损地点"
+                android:maxLength="25"
+                android:text=""
+                android:textColor="@color/wordColor2"
+                android:textColorHint="@color/editColor"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:id="@+id/car_survey_base_place_refresh"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@mipmap/address_refresh" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/back_color" />
+
+
+        <LinearLayout
+            android:id="@+id/car_survey_base_repair_code"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:text="维修省市"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/car_survey_base_repair_pro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="请选择"
+                android:text=""
+                android:textColor="@color/wordColor2"
+                android:textColorHint="@color/editColor"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="15dp"
+                android:background="@mipmap/right_arrow" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/back_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:text="维修地址"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/car_survey_base_repaireplace"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@null"
+                android:gravity="right"
+                android:hint="请输入维修地址"
+                android:maxLength="25"
+                android:text=""
+                android:textColor="@color/wordColor2"
+                android:textColorHint="@color/editColor"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:id="@+id/car_survey_base_repaireplace_refresh"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@mipmap/address_refresh" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/back_color" />
+
+
+        <LinearLayout
+            android:id="@+id/car_survey_base_losskind_layout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:text="定损方式"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/car_survey_base_losskind"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="请选择"
+                android:text=""
+                android:textColor="@color/wordColor2"
+                android:textColorHint="@color/editColor"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="15dp"
+                android:background="@mipmap/right_arrow" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/back_color" />
+
+
+        <LinearLayout
+            android:id="@+id/car_survey_base_losskind_layout2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:text="送回修方式"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/car_survey_base_losskind2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="请选择"
+                android:text=""
+                android:textColor="@color/wordColor2"
+                android:textColorHint="@color/editColor"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="15dp"
+                android:background="@mipmap/right_arrow" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/back_color" />
+
+        <LinearLayout
+            android:id="@+id/survey_info_case_flag"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:text="互碰自赔"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp" />
+
+            <com.estarview.ToggleButtonView
+                android:id="@+id/survey_info_case"
+                android:layout_width="48dp"
+                android:layout_height="22dp"
+                android:layout_marginRight="15dp"
+                android:textOff="否"
+                android:textOn="是" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/back_color" />
+
+        <LinearLayout
+            android:id="@+id/survey_info_cetain_layout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:text="是否一次性协议定损"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp" />
+
+            <com.estarview.ToggleButtonView
+                android:id="@+id/survey_info_cetain"
+                android:layout_width="48dp"
+                android:layout_height="22dp"
+                android:layout_marginRight="15dp"
+                android:textOff="否"
+                android:textOn="是" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/back_color" />
+
+        <LinearLayout
+            android:id="@+id/car_survey_base_hasDuty_layout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:text="交强险责任类型"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp" />
+
+            <!--<com.estarview.ToggleButtonView-->
+                <!--android:id="@+id/car_survey_base_hasduty"-->
+                <!--android:layout_width="48dp"-->
+                <!--android:layout_height="22dp"-->
+                <!--android:layout_marginRight="15dp"-->
+                <!--android:textOff="否"-->
+                <!--android:textOn="是" />-->
+            <TextView
+                android:id="@+id/car_survey_base_hasduty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="请选择"
+                android:text=""
+                android:textColor="@color/wordColor2"
+                android:textColorHint="@color/editColor"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="15dp"
+                android:background="@mipmap/right_arrow" />
+
+        </LinearLayout>
+
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:text="是否合作修理厂"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp" />
+
+            <com.estarview.ToggleButtonView
+                android:id="@+id/car_survey_base_iscompany"
+                android:layout_width="48dp"
+                android:layout_height="22dp"
+                android:layout_marginRight="15dp"
+                android:textOff="否"
+                android:textOn="是" />
+
+        </LinearLayout>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:text="无机构地区修理"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp" />
+
+            <com.estarview.ToggleButtonView
+                android:id="@+id/car_survey_base_hascode"
+                android:layout_width="48dp"
+                android:layout_height="22dp"
+                android:layout_marginRight="15dp"
+                android:textOff="否"
+                android:textOn="是" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/back_color" />
+
+        <LinearLayout
+            android:id="@+id/car_survey_base_factorycode_layout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:text="修理厂代码"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/car_survey_base_factorycode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/wordColor2"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="15dp"
+                android:background="@mipmap/right_arrow" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/back_color"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:text="定损意见"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/car_survey_base_opinion"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:background="@null"
+                android:gravity="right"
+                android:hint="请输入内容"
+                android:maxLength="200"
+                android:text=""
+                android:textColor="@color/wordColor2"
+                android:textColorHint="@color/editColor"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

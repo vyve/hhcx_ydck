@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="huangheSurvey" ></dbname>
+
+    <version value="16" ></version>
+
+
+    <list>
+
+        <mapping class="com.estar.hh.survey.entity.entity.Note"/>
+        <mapping class="com.estar.hh.survey.entity.vo.ImageVO"/>
+
+        <mapping class="com.estar.hh.survey.entity.entity.SubmitSurvMainInfoDto"/>
+        <mapping class="com.estar.hh.survey.entity.entity.SurvBaseInfoDto"/>
+        <mapping class="com.estar.hh.survey.entity.entity.CarLossInfoDto"/>
+        <mapping class="com.estar.hh.survey.entity.entity.GoodInfoDto"/>
+
+        <mapping class="com.estar.hh.survey.entity.entity.SubmitCarLossMainInfoDto"/>
+        <mapping class="com.estar.hh.survey.entity.entity.CarLossBaseInfoDto"/>
+
+        <mapping class="com.estar.hh.survey.entity.entity.SubmitGoodLossMainInfoDto"/>
+        <mapping class="com.estar.hh.survey.entity.entity.PropLossBaseInfoDto"/>
+        <mapping class="com.estar.hh.survey.entity.entity.GoodLossInfoDto"/>
+
+        <!-- 新增-->
+        <mapping class="com.estar.hh.survey.entity.entity.User"/>
+
+    </list>
+
+    <storage value="internal" />
+
+</litepal>

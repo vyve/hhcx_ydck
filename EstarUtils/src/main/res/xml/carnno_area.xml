@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:horizontalGap="1px"
+    android:keyHeight="45dp"
+    android:keyWidth="10%p"
+    android:verticalGap="1px" >
+    <Row>
+        <Key
+            android:codes="-2005"
+            android:keyLabel="兰" />
+        <Key
+            android:codes="-100"
+            android:keyLabel="京" />
+        <Key
+            android:codes="-2000"
+            android:keyLabel="军" />
+        <Key
+            android:codes="-2001"
+            android:keyLabel="海" />
+        <Key
+            android:codes="-2002"
+            android:keyLabel="空" />
+        <Key
+            android:codes="-2003"
+            android:keyLabel="北" />
+        <Key
+            android:codes="-2004"
+            android:keyLabel="沈" />
+        <Key
+            android:codes="-2006"
+            android:keyLabel="济" />
+        <Key
+            android:codes="-2007"
+            android:keyLabel="南" />
+        <Key
+            android:codes="-2008"
+            android:keyLabel="广" />
+
+    </Row>
+    <Row>
+        <Key
+            android:codes="-2009"
+            android:keyLabel="成" />
+        <Key
+            android:codes="-101"
+            android:keyLabel="津" />
+        <Key
+            android:codes="-102"
+            android:keyLabel="沪" />
+        <Key
+            android:codes="-103"
+            android:keyLabel="渝" />
+        <Key
+            android:codes="-104"
+            android:keyLabel="冀" />
+        <Key
+            android:codes="-105"
+            android:keyLabel="豫" />
+        <Key
+            android:codes="-106"
+            android:keyLabel="云" />
+        <Key
+            android:codes="-107"
+            android:keyLabel="辽" />
+        <Key
+            android:codes="-108"
+            android:keyLabel="黑" />
+        <Key
+            android:codes="-109"
+            android:keyLabel="湘" />
+    </Row>
+    <Row>
+        <Key
+            android:codes="-110"
+            android:keyEdgeFlags="left"
+            android:keyLabel="皖" />
+        <Key
+            android:codes="-111"
+            android:keyLabel="鲁" />
+        <Key
+            android:codes="-112"
+            android:keyLabel="新" />
+        <Key
+            android:codes="-113"
+            android:keyLabel="苏" />
+        <Key
+            android:codes="-114"
+            android:keyLabel="浙" />
+        <Key
+            android:codes="-115"
+            android:keyLabel="赣" />
+        <Key
+            android:codes="-116"
+            android:keyLabel="鄂" />
+        <Key
+            android:codes="-117"
+            android:keyLabel="桂" />
+        <Key
+            android:codes="-118"
+            android:keyLabel="甘" />
+        <Key
+            android:codes="-119"
+            android:keyEdgeFlags="right"
+            android:keyLabel="晋" />
+    </Row>
+    <Row>
+        <Key
+            android:codes="-120"
+            android:keyLabel="蒙" />
+        <Key
+            android:codes="-121"
+            android:keyLabel="陕" />
+        <Key
+            android:codes="-122"
+            android:keyLabel="吉" />
+        <Key
+            android:codes="-123"
+            android:keyLabel="闽" />
+        <Key
+            android:codes="-124"
+            android:keyLabel="贵" />
+        <Key
+            android:codes="-125"
+            android:keyLabel="粤" />
+        <Key
+            android:codes="-126"
+            android:keyLabel="青" />
+        <Key
+            android:codes="-127"
+            android:keyLabel="藏" />
+        <Key
+            android:codes="-128"
+            android:keyLabel="川" />
+        <Key
+            android:codes="-129"
+            android:keyEdgeFlags="right"
+            android:keyLabel="宁" />
+    </Row>
+    <Row>
+        <Key
+            android:codes="-8"
+            android:keyLabel="123abc"
+            android:keyWidth="25.3%p" />
+        <Key
+            android:codes="-2010"
+            android:keyLabel="挂" />
+        <Key
+            android:codes="-130"
+            android:keyLabel="琼" />
+        <Key
+            android:codes="-131"
+            android:keyLabel="港" />
+        <Key
+            android:codes="-132"
+            android:keyLabel="澳" />
+        <Key
+            android:codes="-2011"
+            android:keyLabel="学" />
+        <Key
+            android:codes="-2012"
+            android:keyLabel="使" />
+        <Key
+            android:codes="-3"
+            android:keyEdgeFlags="right"
+            android:keyLabel="完成"
+            android:keyWidth="25.3%p" />
+    </Row>
+
+</Keyboard>

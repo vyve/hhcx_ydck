@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.estar.ocr">
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 获取机型信息权限 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!--
+    android:allowBackup="true"
+    android:icon="@drawable/logo"
+    android:theme="@style/AppTheme"
+    -->
+    <application
+
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+
+        <activity android:name=".dl.DLOcrActivity" />
+        <activity android:name=".sid.PhotoShowResult" />
+        <activity android:name=".sid.SIDOcrActivity" />
+        <activity android:name=".sid.SIDOcrActivity2" />
+        <activity android:name=".vl.VLOcrActivity" />
+        <activity android:name=".plate.PLCardActivity" />
+        <activity
+            android:name=".backcard.bankcode.BankScanCamera"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="etop.bank.scan_camera" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".backcard.bankcode.bankShowResult" />
+        <activity
+            android:name=".vin.vincode.VinScanCamera"
+            android:label="@string/title_activity_scan_camera"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="etop.vin.scan_camera" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".vin.vincode.VinShowResult"
+            android:label="@string/title_activity_show_result" />
+        <activity android:name=".sid.SIDPhotoResultActivity" />
+        <activity
+            android:name=".sid.NewSIDOcrActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".vl.NewVLOcrActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".dl.NewDLOcrActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".backcard.bankcode.NewBackOcrActivity"
+            android:screenOrientation="landscape" />
+        <activity android:name=".vin.vincode.NewVinOcrActivity"
+            android:screenOrientation="landscape"></activity>
+    </application>
+
+</manifest>

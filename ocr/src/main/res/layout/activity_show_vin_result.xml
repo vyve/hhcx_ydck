@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#efeff4"
+     >
+
+    <ImageButton
+        android:id="@+id/back_showR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_camera_btn" />
+
+    <ImageView
+        android:id="@+id/word_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/please_ok" />
+
+    <ImageView
+        android:id="@+id/showbitmap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/lin_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/num1_show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numeric="integer"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/num2_show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numeric="integer"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/num3_show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numeric="integer"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/num4_show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numeric="integer"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/num5_show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numeric="integer"
+            android:singleLine="true" />
+    </LinearLayout>
+    <!--TextView 
+        android:id="@+id/bankName_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <TextView 
+        android:id="@+id/bankCode_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <TextView 
+        android:id="@+id/cardName_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <TextView 
+        android:id="@+id/cardType_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        /-->
+	
+    <ImageButton
+        android:id="@+id/OK_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ok_btn" />
+    <!--ImageButton
+        android:id="@+id/buy_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buy_btn_show" />
+
+    <TextView 
+        android:id="@+id/surplusTimes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        /-->
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/re_c"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.estar.ocr.backcard.bankcode.NewBackOcrActivity">
+
+
+    <com.flurgle.camerakit.CameraView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cameraView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:adjustViewBounds="true"
+        app:ckCropOutput="false"
+        app:ckFacing="back"
+        app:ckFlash="off"
+        app:ckFocus="continuous"
+        app:ckJpegQuality="100" />
+
+
+    <ImageButton
+        android:id="@+id/select"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/icon_pic_2" />
+
+    <ImageButton
+        android:id="@+id/flash_camera"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/select"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/flash_camera_btn" />
+
+    <ImageButton
+        android:id="@+id/back_camera"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/select"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/back_camera_btn" />
+
+
+</RelativeLayout>

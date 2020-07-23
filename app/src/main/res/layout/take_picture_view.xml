@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pictureLayout"
+    android:layout_width="228.0px"
+    android:layout_height="196.0px" >
+
+    <FrameLayout android:padding="5dp"
+        android:layout_width="223.0px"
+        android:layout_height="180.0px"
+        android:background="@drawable/take_pictureview_bg" >
+
+        <ImageView
+            android:id="@+id/pictureView"
+            android:layout_width="195.0px"
+            android:layout_height="165.0px"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+    <ImageButton
+        android:id="@+id/closepictureView"
+        android:layout_width="48.0px"
+        android:layout_height="48.0px"
+        android:layout_marginLeft="197.0px"
+        android:layout_marginTop="150.0px"
+        android:background="@drawable/close_pictureview_btn" />
+
+</RelativeLayout>

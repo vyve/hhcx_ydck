@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back_color">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/back_color"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/all_white">
+
+        <EditText
+            android:id="@+id/mission_follow_caseno_input"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:layout_weight="1"
+            android:background="@drawable/grecardview"
+            android:layout_margin="10dp"
+            android:gravity="center_vertical"
+            android:text=""
+            android:textSize="12sp"
+            android:textColor="@color/wordColor"
+            android:maxLength="20"
+            android:hint="报案号/车牌号/损失名称"
+            android:textColorHint="@color/wordColor1"
+            android:paddingLeft="15dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="派工时间"
+                android:textColor="@color/wordColor"
+                android:textSize="12sp"
+                android:layout_marginLeft="15dp"/>
+
+            <TextView
+                android:id="@+id/mission_follow_time_start"
+                android:layout_width="90dp"
+                android:layout_height="30dp"
+                android:text=""
+                android:textColor="@color/wordColor2"
+                android:textSize="12sp"
+                android:background="@drawable/grecardview"
+                android:gravity="center"
+                android:paddingLeft="7dp"
+                android:paddingRight="7dp"
+                android:layout_marginLeft="20dp"/>
+            
+            <View
+                android:layout_width="15dp"
+                android:layout_height="1dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:background="@color/wordColor2"/>
+
+            <TextView
+                android:id="@+id/mission_follow_time_end"
+                android:layout_width="90dp"
+                android:layout_height="30dp"
+                android:text=""
+                android:textColor="@color/wordColor2"
+                android:textSize="12sp"
+                android:background="@drawable/grecardview"
+                android:gravity="center"
+                android:paddingLeft="7dp"
+                android:paddingRight="7dp"/>
+
+            <ImageView
+                android:id="@+id/mission_follow_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/mission_search"
+                android:layout_marginLeft="15dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <view.XListView
+        android:id="@+id/mission_follow_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:scrollbars="none"
+        android:divider="@null"
+        android:dividerHeight="5dp"/>
+
+</LinearLayout>

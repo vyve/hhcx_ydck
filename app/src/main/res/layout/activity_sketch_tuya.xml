@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/back_color">
+
+    <FrameLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/title_bar">
+
+        <LinearLayout
+            android:id="@+id/sketch_describe_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/back_arrow"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="返回"
+                android:textColor="@color/all_white"
+                android:textSize="16sp"
+                android:layout_marginLeft="5dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="涂鸦"
+            android:textColor="@color/all_white"
+            android:textSize="16sp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/sketch_describe_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="保存"
+            android:textSize="16sp"
+            android:textColor="@color/all_white"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginRight="15dp"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/tuya_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/top"
+        android:layout_marginBottom="40dip"
+        android:background="@drawable/road3" >
+
+        <ImageView
+            android:id="@+id/imageview_background"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#C9DDFE" />
+
+        <com.estarview.TuyaView
+            android:id="@+id/tuyaView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@android:color/transparent" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="46.67dip"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/colourtag"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/tuya_selectedtrue"
+                android:onClick="onClick"
+                android:text="颜色"
+                android:textColor="#606060"
+                android:textSize="16.67dip" />
+
+            <Button
+                android:id="@+id/bigtag"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/tuya_selectedfalse"
+                android:onClick="onClick"
+                android:text="大小"
+                android:textColor="#606060"
+                android:textSize="16.67dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#c5d0d5"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dip"
+                android:layout_marginTop="7.33dip"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/imageviewleft"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="6.67dip"
+                    android:background="@drawable/tuya_toleft" />
+
+                <ImageView
+                    android:id="@+id/imageviewright"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="6.67dip"
+                    android:background="@drawable/tuya_toright" />
+
+                <include layout="@layout/tuya_colourlayout" />
+
+                <!-- 壁画粗细 -->
+
+                <ScrollView
+                    android:id="@+id/scrollviewbig"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="19.33dip"
+                    android:layout_marginRight="19.33dip"
+                    android:layout_marginTop="2.67dip"
+                    android:fadingEdge="none"
+                    android:scrollbars="none"
+                    android:visibility="gone" >
+
+                    <com.estarview.MyHorizontalScrollView
+                        android:id="@+id/HorizontalScrollView02"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:scrollbars="none" >
+
+                        <LinearLayout
+                            android:id="@+id/LinearLayout02"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal" >
+
+                            <RelativeLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="7.33dip"
+                                android:orientation="horizontal" >
+
+                                <Button
+                                    android:id="@+id/sizebutton01"
+                                    android:layout_width="40dip"
+                                    android:layout_height="40dip" />
+
+                                <LinearLayout
+                                    android:layout_width="40dip"
+                                    android:layout_height="40dip"
+                                    android:orientation="horizontal" >
+
+                                    <ImageView
+                                        android:layout_width="33.33dip"
+                                        android:layout_height="33.33dip"
+                                        android:layout_gravity="center_vertical"
+                                        android:layout_marginLeft="3.33dip"
+                                        android:background="@drawable/tuya_brushsizebg" />
+                                </LinearLayout>
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="7.33dip"
+                                android:orientation="horizontal" >
+
+                                <Button
+                                    android:id="@+id/sizebutton02"
+                                    android:layout_width="40dip"
+                                    android:layout_height="40dip"
+                                    android:background="#aaaa00" />
+
+                                <LinearLayout
+                                    android:layout_width="40dip"
+                                    android:layout_height="40dip"
+                                    android:orientation="horizontal" >
+
+                                    <ImageView
+                                        android:layout_width="26dip"
+                                        android:layout_height="26dip"
+                                        android:layout_gravity="center_vertical"
+                                        android:layout_marginLeft="6.67dip"
+                                        android:background="@drawable/tuya_brushsizebg" />
+                                </LinearLayout>
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="7.33dip"
+                                android:orientation="horizontal" >
+
+                                <Button
+                                    android:id="@+id/sizebutton03"
+                                    android:layout_width="40dip"
+                                    android:layout_height="40dip"
+                                    android:background="@null" />
+
+                                <LinearLayout
+                                    android:layout_width="40dip"
+                                    android:layout_height="40dip"
+                                    android:orientation="horizontal" >
+
+                                    <ImageView
+                                        android:layout_width="20dip"
+                                        android:layout_height="20dip"
+                                        android:layout_gravity="center_vertical"
+                                        android:layout_marginLeft="10dip"
+                                        android:background="@drawable/tuya_brushsizebg" />
+                                </LinearLayout>
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="6dip"
+                                android:orientation="horizontal" >
+
+                                <Button
+                                    android:id="@+id/sizebutton04"
+                                    android:layout_width="40dip"
+                                    android:layout_height="40dip"
+                                    android:background="@null" />
+
+                                <LinearLayout
+                                    android:layout_width="40dip"
+                                    android:layout_height="40dip"
+                                    android:orientation="horizontal" >
+
+                                    <ImageView
+                                        android:layout_width="13.33dip"
+                                        android:layout_height="13.33dip"
+                                        android:layout_gravity="center_vertical"
+                                        android:layout_marginLeft="13.33dip"
+                                        android:background="@drawable/tuya_brushsizebg" />
+                                </LinearLayout>
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="6dip"
+                                android:orientation="horizontal" >
+
+                                <Button
+                                    android:id="@+id/sizebutton05"
+                                    android:layout_width="40dip"
+                                    android:layout_height="40dip"
+                                    android:background="@null" />
+
+                                <LinearLayout
+                                    android:layout_width="40dip"
+                                    android:layout_height="40dip"
+                                    android:orientation="horizontal" >
+
+                                    <ImageView
+                                        android:layout_width="6.67dip"
+                                        android:layout_height="6.67dip"
+                                        android:layout_gravity="center_vertical"
+                                        android:layout_marginLeft="16.67dip"
+                                        android:background="@drawable/tuya_brushsizebg" />
+                                </LinearLayout>
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5.33dip"
+                                android:orientation="horizontal" >
+
+                                <Button
+                                    android:id="@+id/sizebutton06"
+                                    android:layout_width="40dip"
+                                    android:layout_height="40dip"
+                                    android:background="@null" />
+
+                                <LinearLayout
+                                    android:layout_width="40dip"
+                                    android:layout_height="40dip"
+                                    android:orientation="horizontal" >
+
+                                    <ImageView
+                                        android:layout_width="3.33dip"
+                                        android:layout_height="3.33dip"
+                                        android:layout_gravity="center_vertical"
+                                        android:layout_marginLeft="18.67dip"
+                                        android:background="@drawable/tuya_brushsizebg" />
+                                </LinearLayout>
+                            </RelativeLayout>
+                        </LinearLayout>
+                    </com.estarview.MyHorizontalScrollView>
+                </ScrollView>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dip" >
+
+
+                <Button
+                    android:id="@+id/button_undo"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dip"
+                    android:layout_weight="1"
+                    android:background="@color/all_white"
+                    android:gravity="center"
+                    android:onClick="onClick"
+                    android:text="撤消"
+                    android:textColor="@color/wordColor2"
+                    android:textSize="12sp"/>
+
+
+                <Button
+                    android:id="@+id/button_pen"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dip"
+                    android:layout_weight="1"
+                    android:background="@color/all_white"
+                    android:gravity="center"
+                    android:onClick="onClick"
+                    android:text="选择器"
+                    android:textColor="@color/wordColor2"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/button_eraser"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dip"
+                    android:layout_weight="1"
+                    android:background="@color/all_white"
+                    android:gravity="center"
+                    android:onClick="onClick"
+                    android:text="橡皮擦"
+                    android:textColor="@color/wordColor2"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/ScrollView01"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+
+        <Button
+            android:id="@+id/button_redo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:onClick="onClick"
+            android:text="下一步" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

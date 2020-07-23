@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="btn_radius">2dp</dimen>
+    <dimen name="bar_height">48dp</dimen>
+    <dimen name="btn_height">32dp</dimen>
+    <dimen name="margin_text">8dp</dimen>
+    <dimen name="margin_layout">16dp</dimen>
+    <dimen name="status_bar_height">25dp</dimen>
+    <dimen name="big_image_size">74dp</dimen>
+    <dimen name="min_button_width">52dp</dimen>
+
+    <dimen name="middle_text_size">17sp</dimen>
+    <dimen name="small_text_size">15sp</dimen>
+    <dimen name="mini_text_size">13sp</dimen>
+
+    <dimen name="text_radius_siz">5dp</dimen>
+    <dimen name="xml_splah_width">140dp</dimen>
+    <dimen name="xml_splah_size">20sp</dimen>
+    <dimen name="head">60dp</dimen>
+    <dimen name="search_view_size">45dp</dimen>
+    <dimen name="act_main_im">140dp</dimen>
+    <dimen name="text_size_head">20sp</dimen>
+    <dimen name="text_body_big_size">18sp</dimen>
+    <dimen name="text_body_size">16sp</dimen>
+    <dimen name="text_time_size">13sp</dimen>
+    <dimen name="rl_ll_height_size">50dp</dimen>
+    <dimen name="et_margin_top_Bottom">5dp</dimen>
+    <dimen name="SpaceItemDecoration">5dp</dimen>
+</resources>

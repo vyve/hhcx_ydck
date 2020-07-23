@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/re_c"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+ <SurfaceView
+        android:id="@+id/surfaceViwe"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <!--TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" /-->
+
+      <!--Button
+        android:id="@+id/recog"
+        android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:text="@string/recog_sidcard"
+        >
+    </Button-->
+
+
+  <ImageButton
+      android:id="@+id/select"
+      android:layout_width="60dp"
+      android:layout_height="60dp"
+      android:layout_marginRight="5dp"
+      android:layout_alignParentRight="true"
+      android:layout_centerVertical="true"
+      android:scaleType="centerInside"
+      android:background="@null"
+      android:src="@drawable/icon_pic_2"/>
+</RelativeLayout>

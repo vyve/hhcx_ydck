@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#efeff4" >
+
+    <ImageButton
+        android:id="@+id/back_showR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_camera_btn" />
+
+    <ImageButton
+        android:id="@+id/OK_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ok_btn" />
+
+    <TextView
+        android:id="@+id/Result"
+        android:layout_width="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content" >
+    </TextView>
+
+</RelativeLayout>

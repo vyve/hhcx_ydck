@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">黄河移动查勘</string>
+
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+
+    <!-- 蒲公英UAT，生产切换appKey-->
+    <!--<string name="pgyer_appId_UAT">daa2c065dfe9711dc95c7af675b1d17d</string>-->
+    <string name="pgyer_appId_UAT">48b81a760511c3b7af86d0777d39f596</string>
+    <string name="pgyer_appId_PRO">c1dc75d5ac1f394f1fbd508cea52d51b</string>
+    <string name="pgyer_appId_Y_PRO">40adb6603b1358900e0c81733978ae42</string>
+
+</resources>

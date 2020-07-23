@@ -1,0 +1,2 @@
+include ':EstarUtils', ':EstarView', ':material', ':patcher', ':imageselector', ':ocr', ':camerakit', ':app'
+include ':viewpagerindicator'

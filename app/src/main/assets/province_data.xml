@@ -1,0 +1,418 @@
+<root>
+<province name='北京市' zipcode='110000'>
+	<city city='县' zipcode='110200'></city>
+	<city city='市辖区' zipcode='110100'></city>
+</province>
+<province name='甘肃省' zipcode='620000'>
+	<city city='兰州市' zipcode='620100'></city>
+	<city city='嘉峪关市' zipcode='620200'></city>
+	<city city='金昌市' zipcode='620300'></city>
+	<city city='白银市' zipcode='620400'></city>
+	<city city='天水市' zipcode='620500'></city>
+	<city city='武威市' zipcode='620600'></city>
+	<city city='张掖市' zipcode='620700'></city>
+	<city city='平凉市' zipcode='620800'></city>
+	<city city='酒泉市' zipcode='620900'></city>
+	<city city='庆阳市' zipcode='621000'></city>
+	<city city='定西市' zipcode='621100'></city>
+	<city city='陇南市' zipcode='621200'></city>
+	<city city='临夏回族自治州' zipcode='622900'></city>
+	<city city='甘南藏族自治州' zipcode='623000'></city>
+</province>
+
+<province name='河北省' zipcode='130000'>
+	<city city='邢台市' zipcode='﻿130500'></city>
+	<city city='保定市' zipcode='130600'></city>
+	<city city='张家口市' zipcode='130700'></city>
+	<city city='承德市' zipcode='130800'></city>
+	<city city='沧州市' zipcode='130900'></city>
+	<city city='廊坊市' zipcode='131000'></city>
+	<city city='衡水市' zipcode='131100'></city>
+	<city city='石家庄市' zipcode='130100'></city>
+	<city city='唐山市' zipcode='130200'></city>
+	<city city='秦皇岛市' zipcode='130300'></city>
+	<city city='邯郸市' zipcode='130400'></city>
+</province>
+<province name='山西省' zipcode='﻿140000'>
+	<city city='太原市' zipcode='140100'></city>
+	<city city='大同市' zipcode='140200'></city>
+	<city city='阳泉市' zipcode='140300'></city>
+	<city city='长治市' zipcode='140400'></city>
+	<city city='晋城市' zipcode='140500'></city>
+	<city city='朔州市' zipcode='140600'></city>
+	<city city='晋中市' zipcode='140700'></city>
+	<city city='运城市' zipcode='140800'></city>
+	<city city='忻州市' zipcode='140900'></city>
+	<city city='临汾市' zipcode='141000'></city>
+	<city city='吕梁市' zipcode='141100'></city>
+</province>
+<province name='辽宁省' zipcode='210000'>
+	<city city='沈阳市' zipcode='210100'></city>
+	<city city='大连市' zipcode='210200'></city>
+	<city city='鞍山市' zipcode='210300'></city>
+	<city city='抚顺市' zipcode='210400'></city>
+	<city city='本溪市' zipcode='210500'></city>
+	<city city='丹东市' zipcode='210600'></city>
+	<city city='锦州市' zipcode='210700'></city>
+	<city city='营口市' zipcode='210800'></city>
+	<city city='阜新市' zipcode='210900'></city>
+	<city city='辽阳市' zipcode='211000'></city>
+	<city city='盘锦市' zipcode='211100'></city>
+	<city city='铁岭市' zipcode='211200'></city>
+	<city city='朝阳市' zipcode='211300'></city>
+	<city city='葫芦岛市' zipcode='211400'></city>
+</province>
+<province name='吉林省' zipcode='220000'>
+	<city city='长春市' zipcode='220100'></city>
+	<city city='吉林市' zipcode='220200'></city>
+	<city city='四平市' zipcode='220300'></city>
+	<city city='辽源市' zipcode='220400'></city>
+	<city city='通化市' zipcode='220500'></city>
+	<city city='白山市' zipcode='220600'></city>
+	<city city='松原市' zipcode='220700'></city>
+	<city city='白城市' zipcode='220800'></city>
+	<city city='延边朝鲜族自治州' zipcode='222400'></city>
+</province>
+<province name='黑龙江省' zipcode='230000'>
+	<city city='哈尔滨市' zipcode='230100'></city>
+	<city city='齐齐哈尔市' zipcode='230200'></city>
+	<city city='鸡西市' zipcode='230300'></city>
+	<city city='鹤岗市' zipcode='230400'></city>
+	<city city='双鸭山市' zipcode='230500'></city>
+	<city city='大庆市' zipcode='230600'></city>
+	<city city='伊春市' zipcode='230700'></city>
+	<city city='佳木斯市' zipcode='230800'></city>
+	<city city='七台河市' zipcode='230900'></city>
+	<city city='牡丹江市' zipcode='231000'></city>
+	<city city='黑河市' zipcode='231100'></city>
+	<city city='绥化市' zipcode='231200'></city>
+	<city city='大兴安岭地区' zipcode='232700'></city>
+</province>
+<province name='上海市' zipcode='310000'>
+	<city city='县' zipcode='310200'></city>
+	<city city='市辖区' zipcode='310100'></city>
+</province>
+<province name='江苏省' zipcode='320000'>
+	<city city='南京市' zipcode='320100'></city>
+	<city city='无锡市' zipcode='320200'></city>
+	<city city='徐州市' zipcode='320300'></city>
+	<city city='常州市' zipcode='320400'></city>
+	<city city='苏州市' zipcode='320500'></city>
+	<city city='南通市' zipcode='320600'></city>
+	<city city='连云港市' zipcode='320700'></city>
+	<city city='淮安市' zipcode='320800'></city>
+	<city city='盐城市' zipcode='320900'></city>
+	<city city='扬州市' zipcode='321000'></city>
+	<city city='镇江市' zipcode='321100'></city>
+	<city city='泰州市' zipcode='321200'></city>
+	<city city='宿迁市' zipcode='321300'></city>
+</province>
+<province name='天津市' zipcode='120000'>
+	<city city='县' zipcode='120200'></city>
+	<city city='市辖区' zipcode='120100'></city>
+</province>
+
+<province name='湖北省' zipcode='420000'>
+	<city city='武汉市' zipcode='420100'></city>
+	<city city='黄石市' zipcode='420200'></city>
+	<city city='十堰市' zipcode='420300'></city>
+	<city city='宜昌市' zipcode='420500'></city>
+	<city city='襄樊市' zipcode='420600'></city>
+	<city city='鄂州市' zipcode='420700'></city>
+	<city city='荆门市' zipcode='420800'></city>
+	<city city='孝感市' zipcode='420900'></city>
+	<city city='荆州市' zipcode='421000'></city>
+	<city city='黄冈市' zipcode='421100'></city>
+	<city city='咸宁市' zipcode='421200'></city>
+	<city city='随州市' zipcode='421300'></city>
+	<city city='恩施土家族苗族自治州' zipcode='422800'></city>
+	<city city='省直辖县级行政区划' zipcode='429000'></city>
+</province>
+<province name='湖南省' zipcode='430000'>
+	<city city='长沙市' zipcode='430100'></city>
+	<city city='株洲市' zipcode='430200'></city>
+	<city city='湘潭市' zipcode='430300'></city>
+	<city city='衡阳市' zipcode='430400'></city>
+	<city city='邵阳市' zipcode='430500'></city>
+	<city city='岳阳市' zipcode='430600'></city>
+	<city city='常德市' zipcode='430700'></city>
+	<city city='张家界市' zipcode='430800'></city>
+	<city city='益阳市' zipcode='430900'></city>
+	<city city='郴州市' zipcode='431000'></city>
+	<city city='永州市' zipcode='431100'></city>
+	<city city='怀化市' zipcode='431200'></city>
+	<city city='娄底市' zipcode='431300'></city>
+	<city city='湘西土家族苗族自治州' zipcode='433100'></city>
+</province>
+<province name='广东省' zipcode='440000'>
+	<city city='广州市' zipcode='440100'></city>
+	<city city='韶关市' zipcode='440200'></city>
+	<city city='深圳市' zipcode='440300'></city>
+	<city city='珠海市' zipcode='440400'></city>
+	<city city='汕头市' zipcode='440500'></city>
+	<city city='佛山市' zipcode='440600'></city>
+	<city city='江门市' zipcode='440700'></city>
+	<city city='湛江市' zipcode='440800'></city>
+	<city city='茂名市' zipcode='440900'></city>
+	<city city='肇庆市' zipcode='441200'></city>
+	<city city='惠州市' zipcode='441300'></city>
+	<city city='梅州市' zipcode='441400'></city>
+	<city city='汕尾市' zipcode='441500'></city>
+	<city city='河源市' zipcode='441600'></city>
+	<city city='阳江市' zipcode='441700'></city>
+	<city city='清远市' zipcode='441800'></city>
+	<city city='东莞市' zipcode='441900'></city>
+	<city city='中山市' zipcode='442000'></city>
+	<city city='潮州市' zipcode='445100'></city>
+	<city city='揭阳市' zipcode='445200'></city>
+	<city city='云浮市' zipcode='445300'></city>
+</province>
+<province name='广西壮族自治区' zipcode='450000'>
+	<city city='南宁市' zipcode='450100'></city>
+	<city city='柳州市' zipcode='450200'></city>
+	<city city='桂林市' zipcode='450300'></city>
+	<city city='梧州市' zipcode='450400'></city>
+	<city city='北海市' zipcode='450500'></city>
+	<city city='防城港市' zipcode='450600'></city>
+	<city city='钦州市' zipcode='450700'></city>
+	<city city='贵港市' zipcode='450800'></city>
+	<city city='玉林市' zipcode='450900'></city>
+	<city city='百色市' zipcode='451000'></city>
+	<city city='贺州市' zipcode='451100'></city>
+	<city city='河池市' zipcode='451200'></city>
+	<city city='来宾市' zipcode='451300'></city>
+	<city city='崇左市' zipcode='451400'></city>
+</province>
+<province name='贵州省' zipcode='520000'>
+	<city city='贵阳市' zipcode='520100'></city>
+	<city city='六盘水市' zipcode='520200'></city>
+	<city city='遵义市' zipcode='520300'></city>
+	<city city='安顺市' zipcode='520400'></city>
+	<city city='黔西南布依族苗族自治州' zipcode='522300'></city>
+	<city city='黔东南苗族侗族自治州' zipcode='522600'></city>
+	<city city='黔南布依族苗族自治州' zipcode='522700'></city>
+	<city city='毕节市' zipcode='520500'></city>
+	<city city='铜仁市' zipcode='520600'></city>
+</province>
+<province name='云南省' zipcode='530000'>
+	<city city='昆明市' zipcode='530100'></city>
+	<city city='曲靖市' zipcode='530300'></city>
+	<city city='玉溪市' zipcode='530400'></city>
+	<city city='保山市' zipcode='530500'></city>
+	<city city='昭通市' zipcode='530600'></city>
+	<city city='丽江市' zipcode='530700'></city>
+	<city city='普洱市' zipcode='530800'></city>
+	<city city='临沧市' zipcode='530900'></city>
+	<city city='楚雄彝族自治州' zipcode='532300'></city>
+	<city city='红河哈尼族彝族自治州' zipcode='532500'></city>
+	<city city='文山壮族苗族自治州' zipcode='532600'></city>
+	<city city='西双版纳傣族自治州' zipcode='532800'></city>
+	<city city='大理白族自治州' zipcode='532900'></city>
+	<city city='德宏傣族景颇族自治州' zipcode='533100'></city>
+	<city city='怒江傈僳族自治州' zipcode='533300'></city>
+	<city city='迪庆藏族自治州' zipcode='533400'></city>
+</province>
+<province name='河南省' zipcode='410000'>
+	<city city='漯河市' zipcode='411100'></city>
+	<city city='三门峡市' zipcode='411200'></city>
+	<city city='南阳市' zipcode='411300'></city>
+	<city city='商丘市' zipcode='411400'></city>
+	<city city='信阳市' zipcode='411500'></city>
+	<city city='周口市' zipcode='411600'></city>
+	<city city='驻马店市' zipcode='411700'></city>
+	<city city='郑州市' zipcode='410100'></city>
+	<city city='开封市' zipcode='410200'></city>
+	<city city='洛阳市' zipcode='410300'></city>
+	<city city='平顶山市' zipcode='410400'></city>
+	<city city='安阳市' zipcode='410500'></city>
+	<city city='鹤壁市' zipcode='410600'></city>
+	<city city='新乡市' zipcode='410700'></city>
+	<city city='焦作市' zipcode='410800'></city>
+	<city city='濮阳市' zipcode='410900'></city>
+	<city city='许昌市' zipcode='411000'></city>
+	<city city='省直辖县级行政区划' zipcode='419000'></city>
+</province>
+<province name='青海省' zipcode='630000'>
+	<city city='西宁市' zipcode='630100'></city>
+	<city city='海东地区' zipcode='632100'></city>
+	<city city='海北藏族自治州' zipcode='632200'></city>
+	<city city='黄南藏族自治州' zipcode='632300'></city>
+	<city city='海南藏族自治州' zipcode='632500'></city>
+	<city city='果洛藏族自治州' zipcode='632600'></city>
+	<city city='玉树藏族自治州' zipcode='632700'></city>
+	<city city='海西蒙古族藏族自治州' zipcode='632800'></city>
+</province>
+<province name='宁夏回族自治区' zipcode='640000'>
+	<city city='银川市' zipcode='640100'></city>
+	<city city='石嘴山市' zipcode='640200'></city>
+	<city city='吴忠市' zipcode='640300'></city>
+	<city city='固原市' zipcode='640400'></city>
+	<city city='中卫市' zipcode='640500'></city>
+</province>
+<province name='浙江省' zipcode='330000'>
+	<city city='杭州市' zipcode='330100'></city>
+	<city city='宁波市' zipcode='330200'></city>
+	<city city='温州市' zipcode='330300'></city>
+	<city city='嘉兴市' zipcode='330400'></city>
+	<city city='湖州市' zipcode='330500'></city>
+	<city city='绍兴市' zipcode='330600'></city>
+	<city city='金华市' zipcode='330700'></city>
+	<city city='衢州市' zipcode='330800'></city>
+	<city city='舟山市' zipcode='330900'></city>
+	<city city='台州市' zipcode='331000'></city>
+	<city city='丽水市' zipcode='331100'></city>
+</province>
+<province name='安徽省' zipcode='340000'>
+	<city city='合肥市' zipcode='340100'></city>
+	<city city='芜湖市' zipcode='340200'></city>
+	<city city='蚌埠市' zipcode='340300'></city>
+	<city city='淮南市' zipcode='340400'></city>
+	<city city='马鞍山市' zipcode='340500'></city>
+	<city city='淮北市' zipcode='340600'></city>
+	<city city='铜陵市' zipcode='340700'></city>
+	<city city='安庆市' zipcode='340800'></city>
+	<city city='黄山市' zipcode='341000'></city>
+	<city city='滁州市' zipcode='341100'></city>
+	<city city='阜阳市' zipcode='341200'></city>
+	<city city='宿州市' zipcode='341300'></city>
+	<city city='六安市' zipcode='341500'></city>
+	<city city='亳州市' zipcode='341600'></city>
+	<city city='池州市' zipcode='341700'></city>
+	<city city='宣城市' zipcode='341800'></city>
+</province>
+<province name='内蒙古自治区' zipcode='150000'>
+	<city city='鄂尔多斯市' zipcode='150600'></city>
+	<city city='呼伦贝尔市' zipcode='150700'></city>
+	<city city='巴彦淖尔市' zipcode='150800'></city>
+	<city city='乌兰察布市' zipcode='150900'></city>
+	<city city='兴安盟' zipcode='152200'></city>
+	<city city='锡林郭勒盟' zipcode='152500'></city>
+	<city city='阿拉善盟' zipcode='152900'></city>
+	<city city='呼和浩特市' zipcode='150100'></city>
+	<city city='包头市' zipcode='150200'></city>
+	<city city='乌海市' zipcode='150300'></city>
+	<city city='赤峰市' zipcode='150400'></city>
+	<city city='通辽市' zipcode='150500'></city>
+</province>
+<province name='山东省' zipcode='370000'>
+	<city city='济南市' zipcode='370100'></city>
+	<city city='青岛市' zipcode='370200'></city>
+	<city city='淄博市' zipcode='370300'></city>
+	<city city='枣庄市' zipcode='370400'></city>
+	<city city='东营市' zipcode='370500'></city>
+	<city city='烟台市' zipcode='370600'></city>
+	<city city='潍坊市' zipcode='370700'></city>
+	<city city='济宁市' zipcode='370800'></city>
+	<city city='泰安市' zipcode='370900'></city>
+	<city city='威海市' zipcode='371000'></city>
+	<city city='日照市' zipcode='371100'></city>
+	<city city='莱芜市' zipcode='371200'></city>
+	<city city='临沂市' zipcode='371300'></city>
+	<city city='德州市' zipcode='371400'></city>
+	<city city='聊城市' zipcode='371500'></city>
+	<city city='滨州市' zipcode='371600'></city>
+	<city city='菏泽市' zipcode='371700'></city>
+</province>
+<province name='海南省' zipcode='460000'>
+	<city city='海口市' zipcode='460100'></city>
+	<city city='三亚市' zipcode='460200'></city>
+	<city city='三沙市' zipcode='460300'></city>
+	<city city='省直辖县级行政区划' zipcode='469000'></city>
+</province>
+<province name='重庆市' zipcode='500000'>
+	<city city='县' zipcode='500200'></city>
+	<city city='市辖区' zipcode='500100'></city>
+</province>
+<province name='四川省' zipcode='510000'>
+	<city city='绵阳市' zipcode='510700'></city>
+	<city city='广元市' zipcode='510800'></city>
+	<city city='遂宁市' zipcode='510900'></city>
+	<city city='内江市' zipcode='511000'></city>
+	<city city='乐山市' zipcode='511100'></city>
+	<city city='南充市' zipcode='511300'></city>
+	<city city='眉山市' zipcode='511400'></city>
+	<city city='宜宾市' zipcode='511500'></city>
+	<city city='广安市' zipcode='511600'></city>
+	<city city='达州市' zipcode='511700'></city>
+	<city city='雅安市' zipcode='511800'></city>
+	<city city='巴中市' zipcode='511900'></city>
+	<city city='资阳市' zipcode='512000'></city>
+	<city city='阿坝藏族羌族自治州' zipcode='513200'></city>
+	<city city='甘孜藏族自治州' zipcode='513300'></city>
+	<city city='凉山彝族自治州' zipcode='513400'></city>
+	<city city='成都市' zipcode='510100'></city>
+	<city city='自贡市' zipcode='510300'></city>
+	<city city='攀枝花市' zipcode='510400'></city>
+	<city city='泸州市' zipcode='510500'></city>
+	<city city='德阳市' zipcode='510600'></city>
+</province>
+<province name='福建省' zipcode='350000'>
+	<city city='福州市' zipcode='350100'></city>
+	<city city='厦门市' zipcode='350200'></city>
+	<city city='莆田市' zipcode='350300'></city>
+	<city city='三明市' zipcode='350400'></city>
+	<city city='泉州市' zipcode='350500'></city>
+	<city city='漳州市' zipcode='350600'></city>
+	<city city='南平市' zipcode='350700'></city>
+	<city city='龙岩市' zipcode='350800'></city>
+	<city city='宁德市' zipcode='350900'></city>
+</province>
+<province name='江西省' zipcode='360000'>
+	<city city='新余市' zipcode='360500'></city>
+	<city city='鹰潭市' zipcode='360600'></city>
+	<city city='赣州市' zipcode='360700'></city>
+	<city city='吉安市' zipcode='360800'></city>
+	<city city='宜春市' zipcode='360900'></city>
+	<city city='抚州市' zipcode='361000'></city>
+	<city city='上饶市' zipcode='361100'></city>
+	<city city='南昌市' zipcode='360100'></city>
+	<city city='景德镇市' zipcode='360200'></city>
+	<city city='萍乡市' zipcode='360300'></city>
+	<city city='九江市' zipcode='360400'></city>
+</province>
+<province name='其他' zipcode='999999'>
+	<city city='其他' zipcode='999999'></city>
+</province>
+<province name='西藏自治区' zipcode='540000'>
+	<city city='拉萨市' zipcode='540100'></city>
+	<city city='昌都地区' zipcode='542100'></city>
+	<city city='山南地区' zipcode='542200'></city>
+	<city city='日喀则地区' zipcode='542300'></city>
+	<city city='那曲地区' zipcode='542400'></city>
+	<city city='阿里地区' zipcode='542500'></city>
+	<city city='林芝地区' zipcode='542600'></city>
+</province>
+<province name='陕西省' zipcode='610000'>
+	<city city='商洛市' zipcode='611000'></city>
+	<city city='西安市' zipcode='610100'></city>
+	<city city='铜川市' zipcode='610200'></city>
+	<city city='宝鸡市' zipcode='610300'></city>
+	<city city='咸阳市' zipcode='610400'></city>
+	<city city='渭南市' zipcode='610500'></city>
+	<city city='延安市' zipcode='610600'></city>
+	<city city='汉中市' zipcode='610700'></city>
+	<city city='榆林市' zipcode='610800'></city>
+	<city city='安康市' zipcode='610900'></city>
+</province>
+<province name='新疆维吾尔自治区' zipcode='650000'>
+	<city city='乌鲁木齐市' zipcode='650100'></city>
+	<city city='克拉玛依市' zipcode='650200'></city>
+	<city city='吐鲁番地区' zipcode='652100'></city>
+	<city city='哈密地区' zipcode='652200'></city>
+	<city city='昌吉回族自治州' zipcode='652300'></city>
+	<city city='博尔塔拉蒙古自治州' zipcode='652700'></city>
+	<city city='巴音郭楞蒙古自治州' zipcode='652800'></city>
+	<city city='阿克苏地区' zipcode='652900'></city>
+	<city city='克孜勒苏柯尔克孜自治州' zipcode='653000'></city>
+	<city city='喀什地区' zipcode='653100'></city>
+	<city city='和田地区' zipcode='653200'></city>
+	<city city='伊犁哈萨克自治州' zipcode='654000'></city>
+	<city city='塔城地区' zipcode='654200'></city>
+	<city city='阿勒泰地区' zipcode='654300'></city>
+	<city city='自治区直辖县级行政区划' zipcode='659000'></city>
+</province>
+<province name='港澳台地区' zipcode='999998'>
+	<city city='港澳台地区' zipcode='999998'></city>
+</province>
+</root>
+

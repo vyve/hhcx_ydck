@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <external-path path="Android/data/com/pgyersdk" name="files_root" />
+    <external-path path="." name="external_storage_root" />
+
+    <external-path name="external_files" path="."/>
+    <external-path path="Android/data/" name="files_root" />
+
+    <files-path name="name1" path="test1" />
+    <cache-path name="name2" path="test2" />
+    <external-files-path name="name4" path="test4" />
+    <external-cache-path name="name5" path="test5" />
+
+</paths>

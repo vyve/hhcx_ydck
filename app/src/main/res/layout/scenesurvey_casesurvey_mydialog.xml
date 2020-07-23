@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_radius">
+    
+    <TextView 
+        android:id="@+id/tip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="#0073E3"
+        android:text="提示:请确认定损方式！"/>
+    <com.estar.hh.survey.view.component.video.RevealLayout
+        android:id="@+id/rll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tip"
+        android:layout_below="@+id/tip"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical" >
+    <TextView 
+        android:id="@+id/okBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:background="@drawable/scenesurvey_casesurvey_dialog_ok"
+        android:textColor="#FFFFFF"
+        android:text="好"/>
+    </com.estar.hh.survey.view.component.video.RevealLayout>
+    <View
+    android:layout_below="@+id/rll"
+    android:layout_width="match_parent"
+    android:layout_height="10dp"/>
+</RelativeLayout>

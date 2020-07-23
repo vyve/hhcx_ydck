@@ -1,0 +1,155 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="HHSurveyDefaultStyle" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:activityOpenEnterAnimation">@anim/push_left_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/push_right_out</item>
+    </style>
+
+
+    <!--  viewpager样式 -->
+    <style name="StyledIndicators" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:activityOpenEnterAnimation">@anim/push_left_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/push_right_out</item>
+        <item name="vpiTabPageIndicatorStyle">@style/CustomTabPageIndicator</item>
+        <item name="vpiUnderlinePageIndicatorStyle">@style/CustomUnderlinePageIndicator</item>
+    </style>
+
+    <style name="CustomTabPageIndicator" parent="Widget.TabPageIndicator">
+        <item name="android:background">@color/all_white</item>
+        <!--<item name="android:background">@drawable/viewpager_underline_kind</item>-->
+        <item name="android:textAppearance">@style/CustomTabPageIndicator.Text</item>
+        <!--<item name="android:textColor">@drawable/viewpager_title_style</item>-->
+        <item name="android:textSize">14sp</item>
+        <item name="android:dividerPadding">8dp</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:fadingEdgeLength">8dp</item>
+    </style>
+
+    <style name="CustomTabPageIndicator.Text" parent="android:TextAppearance.Medium">
+        <item name="android:typeface">monospace</item>
+        <item name="android:textColor">@drawable/viewpager_title_style</item>
+    </style>
+
+    <!--  下标的指示器的颜色 -->
+    <style name="CustomUnderlinePageIndicator">
+        <item name="selectedColor">@color/underline_line</item>     //下标的颜色
+        <item name="android:background">@color/all_white</item>     //下标后面的背景色
+        <item name="fadeLength">1000</item>
+        <item name="fadeDelay">1000</item>
+    </style>
+
+    <!-- 联系客户风格 -->
+    <style name="Theme.DialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/colorControlNormal</item>
+        <item name="colorControlActivated">@color/colorControlActivated</item>
+        <item name="colorSwitchThumbNormal">@color/colorSwitchThumbNormal</item>
+    </style>
+
+    <style name="spinner_bigsmall">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center|left</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:background">@drawable/edittext_bg</item>
+        <item name="android:spinnerMode">dropdown</item>
+    </style>
+
+
+    <style name="copy_text_style2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:gravity">center|left</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:textColor">@color/wordColor</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!-- 普通 EditText 样式 -->
+    <style name="edit_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:background">#00000000</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">right</item>
+        <item name="android:textColor">@color/wordColor2</item>
+        <item name="android:textCursorDrawable">@null</item>
+    </style>
+
+    <!-- Spinner 样式 开始 -->
+    <style name="spinner_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/wordColor2</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <!--<item name="android:layout_weight">1</item>-->
+        <item name="android:gravity">center|right</item>
+        <item name="android:padding">5dp</item>
+    <!--<item name="android:background">#00000000</item>-->
+    <item name="android:spinnerMode">dropdown</item>
+</style>
+<!--<item name="android:background">@drawable/sp</item>-->
+    <!--<item name="android:minWidth">128dp</item>-->
+
+    <!-- Spinner 样式 开始 -->
+    <style name="spinner_style2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/blue</item>
+    </style>
+
+    <!-- 弹出框样式 -->
+    <style name="state_select" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>//无标题
+        <item name="android:windowBackground">@null</item>//背景
+        <item name="android:windowIsFloating">true</item>//悬浮
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="PictureAnim">
+        <item name="android:windowEnterAnimation">@anim/picture_show</item>
+        <item name="android:windowExitAnimation">@anim/picture_dismiss</item>
+    </style>
+
+    <style name="MenuPopupAnimation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/push_left_in</item>
+        <item name="android:windowExitAnimation">@anim/push_right_out</item>
+    </style>
+
+    <style name="My_CheckBox" parent="@android:style/Widget.Material.CompoundButton.CheckBox">
+        <item name="android:colorControlActivated">@color/colorAccent</item>
+        <item name="android:colorControlNormal">@color/colorPrimary</item>
+    </style>
+
+</resources>
